@@ -1,28 +1,26 @@
-# Valentina Ekimova | Arctic academic website
+# Valentina Ekimova — Arctic permafrost research
 
-A responsive GitHub Pages-ready research portfolio with original Arctic field photographs, prepared from the October 15, 2026 academic CV.
+Personal academic website highlighting research in Arctic permafrost, snow, hydrology, near-surface geophysics, frozen sediments, and climate-related landscape change. The portfolio includes field photographs from Utqiaġvik, Alaska.
 
-## Pages
-- `index.html`: home, research, fieldwork, publications, teaching, outreach, about, contact
-- `cv.html`: abbreviated, print-friendly academic CV (excludes telephone number)
-- `styles.css`: all styling
-- `script.js`: mobile menu, publication filters, enlarged photo dialog
-- `assets/*.webp`: user-supplied field photographs optimized for the web, with original EXIF metadata stripped
+## Pages and files
 
-## Publishing
+- `index.html` — research profile, fieldwork photographs, selected publications, teaching, outreach, and contact.
+- `cv.html` — concise academic CV.
+- `styles.css` and `script.js` — responsive styling, navigation, publication filtering, and photo gallery.
+- `assets/` — web-optimized field photography.
 
-In the GitHub repository, open **Settings > Pages > Build and deployment**, choose **Deploy from a branch**, select branch `arctic-academic-website`, folder `/ (root)`, then save. Once GitHub Pages is enabled for this branch, the address should be:
+## GitHub Pages
+
+To publish, select **Settings → Pages → Deploy from a branch**, choose the branch `arctic-academic-website` and folder `/ (root)`, then save. GitHub Pages will show the site URL and deployment status. The expected address is:
 
 https://vvekimova1992-prog.github.io/training_test/
 
-GitHub Pages settings may require action by the repository owner. The branch is not the repository default branch.
+## Photography and research content
 
-## Photo provenance and privacy
+Photographs illustrate winter snow observations, water-quality fieldwork, tundra surface water, permafrost landforms and exposures, Arctic infrastructure, field instruction, and community engagement. Web files omit camera EXIF metadata. Confirm publication rights and, where applicable, permissions of recognizable participants before distributing the website publicly.
 
-All five photos were directly provided by Valentina Ekimova in the conversation. The original EXIF metadata has been removed from the optimized copies. `community-presentation.webp` was cropped so the child in the original image is outside the published frame. Students and other adults remain visible in `field-teaching.webp` and `community-presentation.webp`; secure any necessary consent/usage rights before making this GitHub Pages site public.
+Research activities, affiliations, and publication statuses are based on the October 2026 academic CV; update details and add new publications as they become available.
 
-The site does not include third-party stock photographs and can be expanded by adding new images to `assets/` and gallery cards to the fieldwork section. Links to journals and publication statuses reflect the October 2026 CV and should be updated as needed.
+## Local preview
 
-## Run locally
-
-Open `index.html` in a browser, or start a simple static HTTP server (`python -m http.server 8000`) from this folder. No build tools required. The Google Fonts CDN is optional; system fonts provide a fallback.
+Open `index.html` in a browser or serve the folder with `python -m http.server 8000`. No build or package installation is required.
