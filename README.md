@@ -24,3 +24,6 @@ Research activities, affiliations, and publication statuses are based on the Oct
 ## Local preview
 
 Open `index.html` in a browser or serve the folder with `python -m http.server 8000`. No build or package installation is required.
+## Research notes and updates
+
+The website includes a curated set of links to public LinkedIn posts on teaching, permafrost history, Arctic Science Summit Week, and frozen sediment research. Cards use locally hosted photographs from the author's Arctic fieldwork collection rather than third-party images or fragile LinkedIn media URLs. Posts are selected editorially and do not synchronize automatically. Update the links in `index.html` when new highlights should be added.
