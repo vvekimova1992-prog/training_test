@@ -27,3 +27,7 @@ Open `index.html` in a browser or serve the folder with `python -m http.server 8
 ## Research notes and updates
 
 The website includes a curated set of links to public LinkedIn posts on teaching, permafrost history, Arctic Science Summit Week, and frozen sediment research. Cards use locally hosted photographs from the author's Arctic fieldwork collection rather than third-party images or fragile LinkedIn media URLs. Posts are selected editorially and do not synchronize automatically. Update the links in `index.html` when new highlights should be added.
+
+## LinkedIn writing archive
+
+[Writing & Updates](posts.html) is a searchable archive of original LinkedIn posts identified from publicly accessible sources. Reposts are excluded. [POSTS.md](POSTS.md) offers a Markdown version for GitHub preview. The collection may be incomplete until the author's complete post history is available.
