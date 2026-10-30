@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102d39"><meta name="description" content="Original writing, research notes, conference reflections, and field updates from Valentina Ekimova, PhD.">
+<title>Writing & Updates | Valentina Ekimova, PhD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.archive-hero{background:#102d39;color:#f7fbf5;padding:89px 0 76px}
+.archive-hero .overline{color:#cceba8}.archive-hero h1{font:800 clamp(2.9rem,6vw,5.8rem)/1.08 Manrope,Arial,sans-serif;letter-spacing:-.068em;margin:14px 0 22px}
+.archive-hero h1 em{font-style:normal;color:#cceba8}.archive-hero p{color:#d1e4df;max-width:720px;font-size:1.09rem}
+.archive-nav{display:flex;gap:22px;align-items:center}
+.archive-nav a{font-size:.75rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#d2e5de}
+.archive-nav a:hover{color:#cceba8}
+.archive-controls{padding:27px 0;background:#eaf1eb;border-bottom:1px solid #d6e2da}
+.controls-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.archive-controls input,.archive-controls select{font:500 .92rem "DM Sans",sans-serif;color:#1b3a42;background:white;border:1px solid #bccfc5;border-radius:3px;padding:13px 14px;min-height:47px}
+.archive-controls input{flex:1;min-width:210px}.archive-controls select{min-width:185px}
+.post-count{font-size:.78rem;color:#55756c;font-weight:800;white-space:nowrap}
+.archive-main{padding:65px 0 88px;background:#f7f9f5}
+.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.archive-card{display:flex;flex-direction:column;min-width:0;background:white;border:1px solid #dce6e1;transition:transform .2s,box-shadow .2s}
+.archive-card:hover{transform:translateY(-3px);box-shadow:0 14px 45px #1e484417}
+.archive-card[hidden]{display:none}
+.archive-photo{display:block;height:230px;overflow:hidden;background:#d4e3db}
+.archive-photo img{width:100%;height:100%;object-fit:cover;transition:transform .2s}
+.archive-card:hover img{transform:scale(1.035)}
+.archive-body{padding:25px 24px 28px;display:flex;flex:1;flex-direction:column;gap:14px}
+.archive-meta{display:flex;justify-content:space-between;gap:8px;color:#3b8072;font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;font-weight:800}
+.archive-card h2{font:800 1.32rem/1.35 Manrope,Arial,sans-serif;letter-spacing:-.045em;margin:0;color:#1a3840}
+.archive-card p{font-size:.86rem;color:#617672;line-height:1.6}
+.archive-link{align-self:flex-start;margin-top:auto;padding-bottom:6px;border-bottom:1px solid #367c72;color:#286e62;font-size:.78rem;font-weight:800}
+.archive-intro{display:flex;justify-content:space-between;gap:26px;margin-bottom:30px;color:#58726b;font-size:.83rem}
+.archive-intro p{max-width:720px}
+.archive-note{margin-top:42px;border-top:1px solid #ccdcd4;padding-top:23px;display:flex;justify-content:space-between;align-items:start;gap:25px}
+.archive-note p{font-size:.82rem;color:#5b746d;max-width:760px}
+.archive-note a{font-size:.78rem;font-weight:800;color:#257369;white-space:nowrap}
+.archive-empty{padding:45px 0;text-align:center;color:#617672}
+@media(max-width:1000px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-photo{height:260px}}
+@media(max-width:650px){.archive-hero{padding:66px 0 56px}.archive-grid{grid-template-columns:1fr}.archive-photo{height:265px}.archive-intro,.archive-note{display:block}.archive-note a{display:inline-block;margin-top:14px}.archive-controls input,.archive-controls select{width:100%;flex:auto}.archive-nav{gap:10px}.archive-nav a{font-size:.67rem}.archive-body{padding:23px}}
+</style>
+</head><body>
+<a class="skip-link" href="#post-results">Skip to posts</a>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><span class="brand-symbol" aria-hidden="true">✳</span><span><strong>Valentina Ekimova</strong><small>Permafrost &amp; Arctic Science</small></span></a><nav class="archive-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#fieldwork">Fieldwork</a><a href="index.html#publications">Publications</a><a href="cv.html">CV</a></nav></div></header>
+<main>
+<section class="archive-hero"><div class="container"><div class="overline">RESEARCH NOTES / FIELD STORIES / REFLECTIONS</div><h1>Writing &amp; <em>updates.</em></h1><p>My original posts on Arctic research, teaching, fieldwork, scientific collaboration, and the things I am learning along the way.</p></div></section>
+<div class="archive-controls"><div class="container controls-row">
+<label for="post-search" class="sr-only" style="position:absolute;left:-9999px">Search posts</label>
+<input id="post-search" type="search" placeholder="Search posts, topics, or conferences…" aria-label="Search posts">
+<label for="category-filter" class="sr-only" style="position:absolute;left:-9999px">Filter by topic</label>
+<select id="category-filter" aria-label="Filter by topic"><option value="all">All topics</option><option value="Career">Career</option><option value="Conferences">Conferences</option><option value="Professional development">Professional development</option><option value="Research">Research</option><option value="Science communication">Science communication</option><option value="Teaching">Teaching</option></select>
+<span id="post-count" class="post-count" aria-live="polite">12 posts</span>
+</div></div>
+<section class="archive-main" id="post-results"><div class="container">
+<div class="archive-intro"><p>This growing collection includes posts I authored, excluding reposts. Some older LinkedIn entries do not have publicly accessible individual links; those entries lead to my profile instead.</p><span>2025 — 2026</span></div>
+<div class="archive-grid"><article class="archive-card" data-category="Career" data-year="2026" data-text="What I learned while building an independent research career Reflecting on research milestones, learning new methods, mentorship, rejection, and continuing to pursue an academic career. Career">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: What I learned while building an independent research career"><img loading="lazy" src="assets/portrait-frost-heave.webp" alt="Valentina seated on a frost-heave feature in Arctic tundra."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Career</span><span>2026</span></div><h2>What I learned while building an independent research career</h2><p>Reflecting on research milestones, learning new methods, mentorship, rejection, and continuing to pursue an academic career.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Professional development" data-year="2026" data-text="Completing the ACS Reviewer Lab Continuing professional development in thoughtful, constructive, and responsible peer review. Professional development">
+  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Completing the ACS Reviewer Lab"><img loading="lazy" src="assets/field-teaching.webp" alt="Field teaching in an Arctic winter landscape."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Professional development</span><span>2026</span></div><h2>Completing the ACS Reviewer Lab</h2><p>Continuing professional development in thoughtful, constructive, and responsible peer review.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Research" data-year="2026" data-text="A detour through the history of permafrost and northern infrastructure Historical perspectives on frozen ground, early scientific observations, and how northern infrastructure and permafrost influence one another. Research">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: A detour through the history of permafrost and northern infrastructure"><img loading="lazy" src="assets/arctic-elevated-building.webp" alt="Elevated building in Arctic Alaska."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Research</span><span>2026</span></div><h2>A detour through the history of permafrost and northern infrastructure</h2><p>Historical perspectives on frozen ground, early scientific observations, and how northern infrastructure and permafrost influence one another.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Teaching" data-year="2026" data-text="Why teaching does not always happen in a classroom Reflections on Tomorrow's Professors Today at UVA, learning through field instruction, and the relationship between teaching and scientific practice. Teaching">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Why teaching does not always happen in a classroom"><img loading="lazy" src="assets/wetland-fieldwork.webp" alt="Valentina standing in shallow Arctic tundra water."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Teaching</span><span>2026</span></div><h2>Why teaching does not always happen in a classroom</h2><p>Reflections on Tomorrow's Professors Today at UVA, learning through field instruction, and the relationship between teaching and scientific practice.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Science communication" data-year="2026" data-text="Explaining Arctic snow and permafrost in a lightning talk Sharing a short presentation from the UVA Postdoctoral Research Symposium about snow redistribution, landscape evolution, and infrastructure resilience. Science communication">
+  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Explaining Arctic snow and permafrost in a lightning talk"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Snow observations and instruments on the Arctic tundra."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Science communication</span><span>2026</span></div><h2>Explaining Arctic snow and permafrost in a lightning talk</h2><p>Sharing a short presentation from the UVA Postdoctoral Research Symposium about snow redistribution, landscape evolution, and infrastructure resilience.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Inviting research across two AGU 2026 sessions Connecting researchers studying permafrost observation, hydrological and biogeochemical processes, and diverse knowledge systems. Conferences">
+  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Inviting research across two AGU 2026 sessions"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Water-quality observations at an Arctic lagoon."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Inviting research across two AGU 2026 sessions</h2><p>Connecting researchers studying permafrost observation, hydrological and biogeochemical processes, and diverse knowledge systems.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Geophysical conversations at ACOP 2026 in Mongolia Presenting ERT and GPR research on near-surface permafrost in Utqiaġvik and reflecting on international collaborations at the Asian Conference on Permafrost. Conferences">
+  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Geophysical conversations at ACOP 2026 in Mongolia"><img loading="lazy" src="assets/frost-heave-context.webp" alt="Arctic tundra frost-heave landform."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Geophysical conversations at ACOP 2026 in Mongolia</h2><p>Presenting ERT and GPR research on near-surface permafrost in Utqiaġvik and reflecting on international collaborations at the Asian Conference on Permafrost.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Hydrological and biogeochemical processes in permafrost landscapes Announcing AGU session H081, covering thaw, thermokarst, Arctic waters, biogeochemistry, and ecosystem change. Conferences">
+  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Hydrological and biogeochemical processes in permafrost landscapes"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Sonde measurements at a lagoon in Arctic Alaska."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Hydrological and biogeochemical processes in permafrost landscapes</h2><p>Announcing AGU session H081, covering thaw, thermokarst, Arctic waters, biogeochemistry, and ecosystem change.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Permafrost observation across diverse knowledge systems Introducing AGU session C029 with opportunities for field scientists, modelers, community observers, and Indigenous knowledge holders. Conferences">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Permafrost observation across diverse knowledge systems"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Exposed permafrost and tundra soil profile."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Permafrost observation across diverse knowledge systems</h2><p>Introducing AGU session C029 with opportunities for field scientists, modelers, community observers, and Indigenous knowledge holders.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Lessons from Arctic Science Summit Week 2026 Reflections on building relationships, listening, reciprocal research, and working with Arctic communities, alongside a presentation on snow dynamics. Conferences">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Lessons from Arctic Science Summit Week 2026"><img loading="lazy" src="assets/field-teaching.webp" alt="Students and researchers observing Arctic ground conditions together."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Lessons from Arctic Science Summit Week 2026</h2><p>Reflections on building relationships, listening, reciprocal research, and working with Arctic communities, alongside a presentation on snow dynamics.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Professional development" data-year="2025" data-text="Arctic AI and reproducible research at Cyber2A A workshop on accessible, reproducible, data-driven methods for permafrost, snow, environmental imagery, and interdisciplinary Arctic science. Professional development">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Arctic AI and reproducible research at Cyber2A"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Scientific instruments and snow field observations in Arctic Alaska."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Professional development</span><span>2025</span></div><h2>Arctic AI and reproducible research at Cyber2A</h2><p>A workshop on accessible, reproducible, data-driven methods for permafrost, snow, environmental imagery, and interdisciplinary Arctic science.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="archive-card" data-category="Research" data-year="2025" data-text="From laboratory gas hydrates to Arctic field science Connecting experimental work on salt migration and hydrate destabilization with today's field investigations of changing frozen ground. Research">
+  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: From laboratory gas hydrates to Arctic field science"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Permafrost and sediments exposed at the tundra surface."></a>
+  <div class="archive-body"><div class="archive-meta"><span>Research</span><span>2025</span></div><h2>From laboratory gas hydrates to Arctic field science</h2><p>Connecting experimental work on salt migration and hydrate destabilization with today's field investigations of changing frozen ground.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
+</article></div><p class="archive-empty" hidden id="no-results">No posts match those filters.</p>
+<div class="archive-note"><p>The images on these cards come from my Arctic fieldwork photo collection and illustrate the topics; they are not necessarily the photographs or videos attached to the original LinkedIn posts. This archive includes the original posts I could locate in publicly accessible sources and may not yet include every historical post.</p><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">All activity on LinkedIn ↗</a></div>
+</div></section></main>
+<footer><div class="container footer-inner"><span><strong>Valentina Ekimova, PhD</strong> &nbsp;/&nbsp; Arctic Permafrost &amp; Environmental Science</span><span><a href="index.html">Back to home ↑</a></span></div></footer>
+<script>
+(function(){
+const input=document.getElementById("post-search"),filter=document.getElementById("category-filter");
+const cards=Array.from(document.querySelectorAll(".archive-card")),count=document.getElementById("post-count"),empty=document.getElementById("no-results");
+function update(){const q=input.value.trim().toLocaleLowerCase(),c=filter.value;let visible=0;cards.forEach(card=>{const ok=(c==="all"||card.dataset.category===c)&&card.dataset.text.toLocaleLowerCase().includes(q);card.hidden=!ok;if(ok)visible++;});count.textContent=visible+" of "+cards.length+" posts";empty.hidden=visible!==0;}
+input.addEventListener("input",update);filter.addEventListener("change",update);
+})();
+</script>
+</body></html>
