@@ -53,3 +53,7 @@ Unpublished satellite and lagoon analyses are identified as ongoing. No unpublis
 ## Gas-hydrate research
 
 [Gas Hydrates & Frozen Sediments](hydrates.html) documents laboratory experimental geocryology, salt migration, pore-ice melting, hydrate dissociation, and published work from 2019–2026. The page connects the Skoltech PhD and collaborative research history with the contemporary Arctic field program. Scientific findings link to primary journal or publisher sources, including Russian-language publications in *Криосфера Земли*. It credits Evgeny Chuvilin and research collaborators, distinguishes laboratory evidence from field-scale methane emissions, and contains an original conceptual schematic rather than reproducing third-party scientific figures.
+
+## Undergraduate seminar
+
+[Frozen Fire](frozen-fire.html) presents the topics of the Environmental Sciences undergraduate seminar *Frozen Fire: Methane, Permafrost, and Gas Hydrates in a Rapidly Changing Arctic*. It connects teaching with experimental geocryology and Arctic field research. The page is a written overview, not a reproduction of the 73-page source slide deck. It does not copy the credited burning-hydrate photograph by Dinara Davletshina, video by Ekaterina Krivokhat, other third-party scientific figures, or preliminary unpublished snow-analysis plots. It uses existing fieldwork photography from the website.

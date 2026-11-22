@@ -2,7 +2,7 @@
 
 **Valentina Ekimova, PhD — experimental geocryology**
 
-[Website research page](hydrates.html) · [Current Arctic research](research.html) · [Academic CV](cv.html)
+[Website research page](hydrates.html) · [Undergraduate seminar: Frozen Fire](frozen-fire.html) · [Current Arctic research](research.html) · [Academic CV](cv.html)
 
 ## The research question
 
