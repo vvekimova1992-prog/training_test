@@ -4,6 +4,12 @@
 
 [Website research page](hydrates.html) · [Undergraduate seminar: Frozen Fire](frozen-fire.html) · [Current Arctic research](research.html) · [Academic CV](cv.html)
 
+## Burning methane hydrate — demonstration photograph
+
+![Burning methane gas hydrate in a laboratory demonstration](assets/burning-methane-hydrate-davletshina.webp)
+
+*Photograph: Dinara Davletshina. Associated demonstration video: Ekaterina Krivokhat (not reproduced). Extracted from the undergraduate seminar presentation "Frozen Fire", slide 2.*
+
 ## The research question
 
 How do saline fluids, pressure, temperature, and sediment composition control ice and methane-hydrate stability in frozen ground?

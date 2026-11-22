@@ -56,4 +56,8 @@ Unpublished satellite and lagoon analyses are identified as ongoing. No unpublis
 
 ## Undergraduate seminar
 
-[Frozen Fire](frozen-fire.html) presents the topics of the Environmental Sciences undergraduate seminar *Frozen Fire: Methane, Permafrost, and Gas Hydrates in a Rapidly Changing Arctic*. It connects teaching with experimental geocryology and Arctic field research. The page is a written overview, not a reproduction of the 73-page source slide deck. It does not copy the credited burning-hydrate photograph by Dinara Davletshina, video by Ekaterina Krivokhat, other third-party scientific figures, or preliminary unpublished snow-analysis plots. It uses existing fieldwork photography from the website.
+[Frozen Fire](frozen-fire.html) presents the topics of the Environmental Sciences undergraduate seminar *Frozen Fire: Methane, Permafrost, and Gas Hydrates in a Rapidly Changing Arctic*. It connects teaching with experimental geocryology and Arctic field research. The page is a written overview, not a reproduction of the 73-page source slide deck. It displays the burning-hydrate demonstration photograph by Dinara Davletshina with an explicit credit, while attributing the associated video to Ekaterina Krivokhat without hosting the video. Other third-party scientific figures and unpublished snow-analysis plots are not reproduced. It uses existing fieldwork photography from the website.
+
+### Burning methane hydrate demonstration image
+
+`assets/burning-methane-hydrate-davletshina.webp` is extracted from the user-provided undergraduate seminar PDF (slides 2 and 32). The original slide caption credits Dinara Davletshina for the photograph and Ekaterina Krivokhat for the accompanying video. The photograph is used on `hydrates.html` and `frozen-fire.html` with visible credits; the video is not included.
