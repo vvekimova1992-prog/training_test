@@ -61,3 +61,9 @@
 .notes-footer a:hover{text-decoration:underline}
 @media(max-width:850px){.note-image img{height:225px}.note-body{padding:22px}.notes-footer{align-items:start;flex-direction:column;gap:12px}}
 @media(max-width:600px){.notes-grid{grid-template-columns:1fr;gap:18px}.note-image img{height:250px}.note-card{max-width:540px}.note-body{padding:23px}}
+
+/* Links to in-depth academic research and teaching pages */
+.feature-link{display:inline-flex;align-items:center;gap:11px;border-bottom:1px solid #398577;color:#246e65;font-size:.85rem;font-weight:800;letter-spacing:.015em;padding:0 0 7px;margin-top:29px;text-decoration:none}
+.feature-link:hover{color:#0c4540}
+.teaching-subline{font-size:.85rem!important;line-height:1.67;margin:19px 0 0;color:#55716a}
+.teaching-copy .feature-link{margin-top:18px}

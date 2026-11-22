@@ -31,3 +31,10 @@ The website includes a curated set of links to public LinkedIn posts on teaching
 ## LinkedIn writing archive
 
 [Writing & Updates](posts.html) is a searchable archive of original LinkedIn posts identified from publicly accessible sources. Reposts are excluded. [POSTS.md](POSTS.md) offers a Markdown version for GitHub preview. The collection may be incomplete until the author's complete post history is available.
+
+## In-depth academic pages
+
+- [Research](research.html): current observations, frozen-sediment experiments, community collaborations, and clearly identified future research directions.
+- [Teaching & Mentoring](teaching.html): field-based teaching philosophy, course experience, proposed elective, and student mentorship.
+
+These pages present a general academic research and teaching profile, not an institution-specific application.
