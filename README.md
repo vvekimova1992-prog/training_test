@@ -49,3 +49,7 @@ The [Community Engagement & Collaborations](community.html) page acknowledges th
 The existing studio photo was also published by UVA Engagement and credited to Arctic Design Group (2024), linked alongside the photo. Based on the presentation credits, the snow monitoring image is credited to Cheri Johnson and the elevated blue building image to MacKenzie Nelson. Three added Arctic environmental photographs are credited to Valentina Ekimova in the presentation: infrastructure ponding (June 2025), a Middle Salt Lagoon outfall (June 2024), and an Imikpuk Lake shoreline intake (June 2024).
 
 Unpublished satellite and lagoon analyses are identified as ongoing. No unpublished numerical results, maps, or statistical test findings from the slide deck are reproduced as settled conclusions.
+
+## Gas-hydrate research
+
+[Gas Hydrates & Frozen Sediments](hydrates.html) documents laboratory experimental geocryology, salt migration, pore-ice melting, hydrate dissociation, and published work from 2019–2026. The page connects the Skoltech PhD and collaborative research history with the contemporary Arctic field program. Scientific findings link to primary journal or publisher sources, including Russian-language publications in *Криосфера Земли*. It credits Evgeny Chuvilin and research collaborators, distinguishes laboratory evidence from field-scale methane emissions, and contains an original conceptual schematic rather than reproducing third-party scientific figures.
