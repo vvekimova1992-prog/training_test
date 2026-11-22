@@ -1,116 +1,636 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#102d39"><meta name="description" content="Original writing, research notes, conference reflections, and field updates from Valentina Ekimova, PhD.">
-<title>Writing & Updates | Valentina Ekimova, PhD</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<style>
-.archive-hero{background:#102d39;color:#f7fbf5;padding:89px 0 76px}
-.archive-hero .overline{color:#cceba8}.archive-hero h1{font:800 clamp(2.9rem,6vw,5.8rem)/1.08 Manrope,Arial,sans-serif;letter-spacing:-.068em;margin:14px 0 22px}
-.archive-hero h1 em{font-style:normal;color:#cceba8}.archive-hero p{color:#d1e4df;max-width:720px;font-size:1.09rem}
-.archive-nav{display:flex;gap:22px;align-items:center}
-.archive-nav a{font-size:.75rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#d2e5de}
-.archive-nav a:hover{color:#cceba8}
-.archive-controls{padding:27px 0;background:#eaf1eb;border-bottom:1px solid #d6e2da}
-.controls-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-.archive-controls input,.archive-controls select{font:500 .92rem "DM Sans",sans-serif;color:#1b3a42;background:white;border:1px solid #bccfc5;border-radius:3px;padding:13px 14px;min-height:47px}
-.archive-controls input{flex:1;min-width:210px}.archive-controls select{min-width:185px}
-.post-count{font-size:.78rem;color:#55756c;font-weight:800;white-space:nowrap}
-.archive-main{padding:65px 0 88px;background:#f7f9f5}
-.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.archive-card{display:flex;flex-direction:column;min-width:0;background:white;border:1px solid #dce6e1;transition:transform .2s,box-shadow .2s}
-.archive-card:hover{transform:translateY(-3px);box-shadow:0 14px 45px #1e484417}
-.archive-card[hidden]{display:none}
-.archive-photo{display:block;height:230px;overflow:hidden;background:#d4e3db}
-.archive-photo img{width:100%;height:100%;object-fit:cover;transition:transform .2s}
-.archive-card:hover img{transform:scale(1.035)}
-.archive-body{padding:25px 24px 28px;display:flex;flex:1;flex-direction:column;gap:14px}
-.archive-meta{display:flex;justify-content:space-between;gap:8px;color:#3b8072;font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;font-weight:800}
-.archive-card h2{font:800 1.32rem/1.35 Manrope,Arial,sans-serif;letter-spacing:-.045em;margin:0;color:#1a3840}
-.archive-card p{font-size:.86rem;color:#617672;line-height:1.6}
-.archive-link{align-self:flex-start;margin-top:auto;padding-bottom:6px;border-bottom:1px solid #367c72;color:#286e62;font-size:.78rem;font-weight:800}
-.archive-intro{display:flex;justify-content:space-between;gap:26px;margin-bottom:30px;color:#58726b;font-size:.83rem}
-.archive-intro p{max-width:720px}
-.archive-note{margin-top:42px;border-top:1px solid #ccdcd4;padding-top:23px;display:flex;justify-content:space-between;align-items:start;gap:25px}
-.archive-note p{font-size:.82rem;color:#5b746d;max-width:760px}
-.archive-note a{font-size:.78rem;font-weight:800;color:#257369;white-space:nowrap}
-.archive-empty{padding:45px 0;text-align:center;color:#617672}
-@media(max-width:1000px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-photo{height:260px}}
-@media(max-width:650px){.archive-hero{padding:66px 0 56px}.archive-grid{grid-template-columns:1fr}.archive-photo{height:265px}.archive-intro,.archive-note{display:block}.archive-note a{display:inline-block;margin-top:14px}.archive-controls input,.archive-controls select{width:100%;flex:auto}.archive-nav{gap:10px}.archive-nav a{font-size:.67rem}.archive-body{padding:23px}}
-</style>
-</head><body>
-<a class="skip-link" href="#post-results">Skip to posts</a>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><span class="brand-symbol" aria-hidden="true">✳</span><span><strong>Valentina Ekimova</strong><small>Permafrost &amp; Arctic Science</small></span></a><nav class="archive-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#fieldwork">Fieldwork</a><a href="index.html#publications">Publications</a><a href="cv.html">CV</a></nav></div></header>
-<main>
-<section class="archive-hero"><div class="container"><div class="overline">RESEARCH NOTES / FIELD STORIES / REFLECTIONS</div><h1>Writing &amp; <em>updates.</em></h1><p>My original posts on Arctic research, teaching, fieldwork, scientific collaboration, and the things I am learning along the way.</p></div></section>
-<div class="archive-controls"><div class="container controls-row">
-<label for="post-search" class="sr-only" style="position:absolute;left:-9999px">Search posts</label>
-<input id="post-search" type="search" placeholder="Search posts, topics, or conferences…" aria-label="Search posts">
-<label for="category-filter" class="sr-only" style="position:absolute;left:-9999px">Filter by topic</label>
-<select id="category-filter" aria-label="Filter by topic"><option value="all">All topics</option><option value="Career">Career</option><option value="Conferences">Conferences</option><option value="Professional development">Professional development</option><option value="Research">Research</option><option value="Science communication">Science communication</option><option value="Teaching">Teaching</option></select>
-<span id="post-count" class="post-count" aria-live="polite">12 posts</span>
-</div></div>
-<section class="archive-main" id="post-results"><div class="container">
-<div class="archive-intro"><p>This growing collection includes posts I authored, excluding reposts. Some older LinkedIn entries do not have publicly accessible individual links; those entries lead to my profile instead.</p><span>2025 — 2026</span></div>
-<div class="archive-grid"><article class="archive-card" data-category="Career" data-year="2026" data-text="What I learned while building an independent research career Reflecting on research milestones, learning new methods, mentorship, rejection, and continuing to pursue an academic career. Career">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: What I learned while building an independent research career"><img loading="lazy" src="assets/portrait-frost-heave.webp" alt="Valentina seated on a frost-heave feature in Arctic tundra."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Career</span><span>2026</span></div><h2>What I learned while building an independent research career</h2><p>Reflecting on research milestones, learning new methods, mentorship, rejection, and continuing to pursue an academic career.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Professional development" data-year="2026" data-text="Completing the ACS Reviewer Lab Continuing professional development in thoughtful, constructive, and responsible peer review. Professional development">
-  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Completing the ACS Reviewer Lab"><img loading="lazy" src="assets/field-teaching.webp" alt="Field teaching in an Arctic winter landscape."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Professional development</span><span>2026</span></div><h2>Completing the ACS Reviewer Lab</h2><p>Continuing professional development in thoughtful, constructive, and responsible peer review.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Research" data-year="2026" data-text="A detour through the history of permafrost and northern infrastructure Historical perspectives on frozen ground, early scientific observations, and how northern infrastructure and permafrost influence one another. Research">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: A detour through the history of permafrost and northern infrastructure"><img loading="lazy" src="assets/arctic-elevated-building.webp" alt="Elevated building in Arctic Alaska."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Research</span><span>2026</span></div><h2>A detour through the history of permafrost and northern infrastructure</h2><p>Historical perspectives on frozen ground, early scientific observations, and how northern infrastructure and permafrost influence one another.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Teaching" data-year="2026" data-text="Why teaching does not always happen in a classroom Reflections on Tomorrow's Professors Today at UVA, learning through field instruction, and the relationship between teaching and scientific practice. Teaching">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Why teaching does not always happen in a classroom"><img loading="lazy" src="assets/wetland-fieldwork.webp" alt="Valentina standing in shallow Arctic tundra water."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Teaching</span><span>2026</span></div><h2>Why teaching does not always happen in a classroom</h2><p>Reflections on Tomorrow's Professors Today at UVA, learning through field instruction, and the relationship between teaching and scientific practice.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Science communication" data-year="2026" data-text="Explaining Arctic snow and permafrost in a lightning talk Sharing a short presentation from the UVA Postdoctoral Research Symposium about snow redistribution, landscape evolution, and infrastructure resilience. Science communication">
-  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Explaining Arctic snow and permafrost in a lightning talk"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Snow observations and instruments on the Arctic tundra."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Science communication</span><span>2026</span></div><h2>Explaining Arctic snow and permafrost in a lightning talk</h2><p>Sharing a short presentation from the UVA Postdoctoral Research Symposium about snow redistribution, landscape evolution, and infrastructure resilience.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Inviting research across two AGU 2026 sessions Connecting researchers studying permafrost observation, hydrological and biogeochemical processes, and diverse knowledge systems. Conferences">
-  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Inviting research across two AGU 2026 sessions"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Water-quality observations at an Arctic lagoon."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Inviting research across two AGU 2026 sessions</h2><p>Connecting researchers studying permafrost observation, hydrological and biogeochemical processes, and diverse knowledge systems.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Geophysical conversations at ACOP 2026 in Mongolia Presenting ERT and GPR research on near-surface permafrost in Utqiaġvik and reflecting on international collaborations at the Asian Conference on Permafrost. Conferences">
-  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Geophysical conversations at ACOP 2026 in Mongolia"><img loading="lazy" src="assets/frost-heave-context.webp" alt="Arctic tundra frost-heave landform."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Geophysical conversations at ACOP 2026 in Mongolia</h2><p>Presenting ERT and GPR research on near-surface permafrost in Utqiaġvik and reflecting on international collaborations at the Asian Conference on Permafrost.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Hydrological and biogeochemical processes in permafrost landscapes Announcing AGU session H081, covering thaw, thermokarst, Arctic waters, biogeochemistry, and ecosystem change. Conferences">
-  <a class="archive-photo" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile to find the post: Hydrological and biogeochemical processes in permafrost landscapes"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Sonde measurements at a lagoon in Arctic Alaska."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Hydrological and biogeochemical processes in permafrost landscapes</h2><p>Announcing AGU session H081, covering thaw, thermokarst, Arctic waters, biogeochemistry, and ecosystem change.</p><a class="archive-link" href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">Find on LinkedIn profile <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Permafrost observation across diverse knowledge systems Introducing AGU session C029 with opportunities for field scientists, modelers, community observers, and Indigenous knowledge holders. Conferences">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Permafrost observation across diverse knowledge systems"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Exposed permafrost and tundra soil profile."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Permafrost observation across diverse knowledge systems</h2><p>Introducing AGU session C029 with opportunities for field scientists, modelers, community observers, and Indigenous knowledge holders.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Conferences" data-year="2026" data-text="Lessons from Arctic Science Summit Week 2026 Reflections on building relationships, listening, reciprocal research, and working with Arctic communities, alongside a presentation on snow dynamics. Conferences">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Lessons from Arctic Science Summit Week 2026"><img loading="lazy" src="assets/field-teaching.webp" alt="Students and researchers observing Arctic ground conditions together."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Conferences</span><span>2026</span></div><h2>Lessons from Arctic Science Summit Week 2026</h2><p>Reflections on building relationships, listening, reciprocal research, and working with Arctic communities, alongside a presentation on snow dynamics.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Professional development" data-year="2025" data-text="Arctic AI and reproducible research at Cyber2A A workshop on accessible, reproducible, data-driven methods for permafrost, snow, environmental imagery, and interdisciplinary Arctic science. Professional development">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: Arctic AI and reproducible research at Cyber2A"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Scientific instruments and snow field observations in Arctic Alaska."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Professional development</span><span>2025</span></div><h2>Arctic AI and reproducible research at Cyber2A</h2><p>A workshop on accessible, reproducible, data-driven methods for permafrost, snow, environmental imagery, and interdisciplinary Arctic science.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article>
-<article class="archive-card" data-category="Research" data-year="2025" data-text="From laboratory gas hydrates to Arctic field science Connecting experimental work on salt migration and hydrate destabilization with today's field investigations of changing frozen ground. Research">
-  <a class="archive-photo" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD" target="_blank" rel="noopener noreferrer" aria-label="Read original LinkedIn post: From laboratory gas hydrates to Arctic field science"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Permafrost and sediments exposed at the tundra surface."></a>
-  <div class="archive-body"><div class="archive-meta"><span>Research</span><span>2025</span></div><h2>From laboratory gas hydrates to Arctic field science</h2><p>Connecting experimental work on salt migration and hydrate destabilization with today's field investigations of changing frozen ground.</p><a class="archive-link" href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD" target="_blank" rel="noopener noreferrer">Read original post <span aria-hidden="true">↗</span></a></div>
-</article></div><p class="archive-empty" hidden id="no-results">No posts match those filters.</p>
-<div class="archive-note"><p>The images on these cards come from my Arctic fieldwork photo collection and illustrate the topics; they are not necessarily the photographs or videos attached to the original LinkedIn posts. This archive includes the original posts I could locate in publicly accessible sources and may not yet include every historical post.</p><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" target="_blank" rel="noopener noreferrer">All activity on LinkedIn ↗</a></div>
-</div></section></main>
-<footer><div class="container footer-inner"><span><strong>Valentina Ekimova, PhD</strong> &nbsp;/&nbsp; Arctic Permafrost &amp; Environmental Science</span><span><a href="index.html">Back to home ↑</a></span></div></footer>
-<script>
-(function(){
-const input=document.getElementById("post-search"),filter=document.getElementById("category-filter");
-const cards=Array.from(document.querySelectorAll(".archive-card")),count=document.getElementById("post-count"),empty=document.getElementById("no-results");
-function update(){const q=input.value.trim().toLocaleLowerCase(),c=filter.value;let visible=0;cards.forEach(card=>{const ok=(c==="all"||card.dataset.category===c)&&card.dataset.text.toLocaleLowerCase().includes(q);card.hidden=!ok;if(ok)visible++;});count.textContent=visible+" of "+cards.length+" posts";empty.hidden=visible!==0;}
-input.addEventListener("input",update);filter.addEventListener("change",update);
-})();
-</script>
-</body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d39"><meta name="description" content="Field stories, reflections and original LinkedIn writing by Valentina Ekimova on Arctic permafrost research, teaching, community engagement, and academic life."><title>Writing & Updates | Valentina Ekimova, PhD</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>
+:root{--navy:#102d39;--ink:#18343c;--muted:#62756e;--green:#337b71;--pale:#f3f7f2;--lime:#cceba8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.7 'DM Sans',Arial,sans-serif;color:var(--ink);background:var(--pale)}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.container{width:min(1160px,calc(100% - 48px));margin:auto}.skip-link{position:absolute;left:-999px;top:0}.skip-link:focus{left:12px;background:#fff;color:#000;padding:8px;z-index:100}header{background:#0e2935;color:#fff}header .container{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:20px}header strong{font-family:Manrope,sans-serif;letter-spacing:-.045em;font-size:1.05rem}header nav{display:flex;flex-wrap:wrap;gap:24px}header nav a{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800}header nav a:hover{color:var(--lime)}.hero{background:#102d39;color:#fff;padding:100px 0 85px}.eyebrow{font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.17em;color:var(--lime)}h1{font:800 clamp(3rem,6vw,6rem)/1.08 Manrope,sans-serif;letter-spacing:-.067em;margin:17px 0 21px}h1 em{color:var(--lime);font-style:normal}.hero p{max-width:750px;color:#cddfda;font-size:1.12rem}.controls{background:#e8f0e9;padding:23px 0;border-bottom:1px solid #cadbd1}.controls .container{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.controls input,.controls select{padding:13px 15px;min-height:46px;border:1px solid #bed2c8;background:#fff;border-radius:3px;color:var(--ink);font:500 .92rem 'DM Sans',Arial,sans-serif}.controls input{flex:1;min-width:220px}.controls select{min-width:190px}.count{color:#426c63;font-weight:800;font-size:.82rem}.main{padding:65px 0 100px}.intro{display:flex;justify-content:space-between;gap:32px;align-items:start;margin-bottom:30px}.intro p{max-width:810px;color:#617772}.intro strong{font-size:.74rem;color:#448075;text-transform:uppercase;white-space:nowrap}.post-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px}.post{display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid #dce6de;transition:transform .2s,box-shadow .2s}.post[hidden]{display:none}.post:hover{transform:translateY(-3px);box-shadow:0 15px 38px #153d3512}.post-photo{height:245px;overflow:hidden;background:#d7e5dc}.post-photo img{width:100%;height:100%;object-fit:cover}.post-content{display:flex;flex-direction:column;flex:1;padding:25px 29px 27px}.post-meta{display:flex;justify-content:space-between;gap:15px;align-items:center;color:#3c8378;text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;font-weight:800}.post h2{font:800 1.49rem/1.35 Manrope,sans-serif;letter-spacing:-.04em;margin:14px 0 10px}.post-content>p{font-size:.92rem;color:#5d7770;line-height:1.7;margin:0 0 20px}.post-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:auto}.post-actions a{color:#2b786c;font-size:.78rem;font-weight:800;border-bottom:1px solid #3d8a7a;padding-bottom:5px}.post-full{margin-top:18px;border-top:1px solid #e0e9e2;padding-top:14px}.post-full summary{cursor:pointer;color:#2c6f65;font-weight:800;font-size:.79rem;list-style-type:'＋  '}.post-full[open] summary{list-style-type:'－  '}.original-body{white-space:pre-line;color:#4f6d66;font-size:.8rem;line-height:1.72;margin-top:15px;overflow-wrap:anywhere}.archive-note{margin-top:40px;border-top:1px solid #d2dfd5;padding-top:23px;line-height:1.7;color:#5c776e;font-size:.85rem}.empty{text-align:center;padding:70px;color:#667e72}footer{background:#0c2530;color:#c5dbd3;padding:26px 0;font-size:.79rem}footer .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer a{text-decoration:underline;text-underline-offset:3px}:focus-visible{outline:3px solid var(--lime);outline-offset:3px}@media(max-width:760px){.container{width:calc(100% - 34px)}header .container{padding:16px 0;align-items:flex-start;flex-direction:column}header nav{gap:14px}.hero{padding:67px 0 64px}.post-grid{grid-template-columns:1fr}.post-photo{height:260px}.controls input,.controls select{width:100%;flex:1}.intro{display:block}.intro strong{display:block;margin-top:10px}.post-content{padding:22px}.main{padding:40px 0 70px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style></head><body>
+<a href="#results" class="skip-link">Skip to posts</a><header><div class="container"><a href="index.html"><strong>✳ &nbsp;Valentina Ekimova</strong></a><nav aria-label="Site navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="community.html">Community</a><a href="teaching.html">Teaching</a><a href="cv.html">CV</a></nav></div></header>
+<main><section class="hero"><div class="container"><div class="eyebrow">FIELDWORK / RESEARCH / PEOPLE</div><h1>Writing &amp; <em>updates.</em></h1><p>Field stories, conference notes, reflections on collaboration and teaching, and other posts I have shared about scientific life.</p></div></section>
+<div class="controls"><div class="container"><input id="search" type="search" aria-label="Search original posts" placeholder="Search research, teaching, fieldwork, people…"><select id="category" aria-label="Filter by topic"><option value="all">All topics</option><option value="Academic life">Academic life</option><option value="Art and science">Art and science</option><option value="Conferences">Conferences</option><option value="Fieldwork">Fieldwork</option><option value="Fieldwork &amp; communities">Fieldwork &amp; communities</option><option value="Permafrost history">Permafrost history</option><option value="Professional development">Professional development</option><option value="Research">Research</option><option value="Teaching">Teaching</option></select><select id="year" aria-label="Filter by year"><option value="all">All years</option><option value="2026">2026</option><option value="2025">2025</option></select><span id="count" class="count" aria-live="polite">25 entries</span></div></div>
+<section class="main" id="results"><div class="container"><div class="intro"><p>This is an evolving archive of original LinkedIn writing, excluding identifiable reposts. The dated entries below come from the Rich Media export, with a few previously featured updates retained. Individual post links are added when available.</p><strong>2025–2026</strong></div><div class="post-grid"><article class="post" data-category="Art and science" data-year="2026" data-search="when arctic science becomes music art and science a performance of auksalaq at uva prompted reflections on communicating arctic environmental change through art and research. last week, i had the opportunity to experience auksalaq, a telematic opera, created by matthew burtner and scott deal and performed by the ecosono ensemble as part of uvas arts on the hill series.
+auksalaq, meaning melting snow in i?upiaq, brings together music, visual art, and arctic environmental science. through sonification, scientific observations of wind, ice, and clouds become music, while the musicians even use melting ice and water as instruments.
+for me, this was a deeply emotional experience. it was overwhelming to think about how rapidly the arctic is changing. i kept imagining a child walking through the arctic snow in his parka, surrounded by a landscape that might look very different by the time he grows up.
+but it was emotional for another reason, too. as someone studying arctic permafrost, i often struggle to explain why people living thousands of miles away should care about what is happening in the arctic. saying that the arctic is warming three to four times faster than the global average doesnt always communicate what that actually means for peoples lives. the performance reminded me that while climate change may feel distant to some arctic communities, these changes are not distant predictions. they are already affecting homes, infrastructure, and landscapes that have supported generations of people.
+matthew managed to communicate through music what i sometimes struggle to explain through science. and it reminded me why the research we do matters.
+thank you to matthew burtner and the ecosono ensemble for such a meaningful experience, and to uva president scott c. beardsley and claire dufournet beardsley for hosting this wonderful event and bringing arctic science and art together at carr&#x27;s hill.
+photo descriptions:
+1. music and melting ice: a unique musical setup at auksalaq, where melting ice and water became part of the live performance.
+2. the performers: matthew burtner and the ecosono ensemble taking their final bow after the performance of auksalaq at uva&#x27;s arts on the hill.
+3. arctic landscape: a tundra shoreline affected by erosion near utqia?vik, alaska, photographed during my fieldwork. a reminder of the arctic landscapes at the heart of both my research and this performance.
+#arcticresearch #sciencecommunication #artandscience #climatechange #uva">
+<div class="post-photo"><img loading="lazy" src="assets/portrait-frost-heave.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Art and science</span><time>Oct 19, 2026</time></div><h2>When Arctic science becomes music</h2><p>A performance of Auksalaq at UVA prompted reflections on communicating Arctic environmental change through art and research.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Last week, I had the opportunity to experience Auksalaq, a Telematic Opera, created by Matthew Burtner and Scott Deal and performed by the EcoSono Ensemble as part of UVAs Arts on the Hill series.
+Auksalaq, meaning melting snow in I?upiaq, brings together music, visual art, and Arctic environmental science. Through sonification, scientific observations of wind, ice, and clouds become music, while the musicians even use melting ice and water as instruments.
+For me, this was a deeply emotional experience. It was overwhelming to think about how rapidly the Arctic is changing. I kept imagining a child walking through the Arctic snow in his parka, surrounded by a landscape that might look very different by the time he grows up.
+But it was emotional for another reason, too. As someone studying Arctic permafrost, I often struggle to explain why people living thousands of miles away should care about what is happening in the Arctic. Saying that the Arctic is warming three to four times faster than the global average doesnt always communicate what that actually means for peoples lives. The performance reminded me that while climate change may feel distant to some Arctic communities, these changes are not distant predictions. They are already affecting homes, infrastructure, and landscapes that have supported generations of people.
+Matthew managed to communicate through music what I sometimes struggle to explain through science. And it reminded me why the research we do matters.
+Thank you to Matthew Burtner and the EcoSono Ensemble for such a meaningful experience, and to UVA President Scott C. Beardsley and Claire Dufournet Beardsley for hosting this wonderful event and bringing Arctic science and art together at Carr&#x27;s Hill.
+Photo descriptions:
+1. Music and melting ice: A unique musical setup at Auksalaq, where melting ice and water became part of the live performance.
+2. The performers: Matthew Burtner and the EcoSono Ensemble taking their final bow after the performance of Auksalaq at UVA&#x27;s Arts on the Hill.
+3. Arctic landscape: A tundra shoreline affected by erosion near Utqia?vik, Alaska, photographed during my fieldwork. A reminder of the Arctic landscapes at the heart of both my research and this performance.
+#ArcticResearch #ScienceCommunication #ArtAndScience #ClimateChange #UVA</div></details></div>
+</article><article class="post" data-category="Fieldwork &amp; communities" data-year="2026" data-search="autumn lagoon fieldwork with iḷisaġvik college students fieldwork &amp; communities field measurements with adele thomas, jasmine biswokarma, and violet anniskett; a chemistry class visit, instrumentation, and conversations with bueci. another intense field season in utqia?vik is complete!
+
+running almost straight from a small single-engine plane into gusty wind to start lagoon measurements before dark sounded a little insane even in my own head :) but time was limited, and with adele thomas helping me, we completed our first lagoon measurements within just a few hours of arriving.
+
+that pretty much set the pace for the trip. fingers were getting cold, the laptop battery could die within an hour, and in some places we already had to break through a thin layer of ice to reach the water. even exee, as i affectionately call our exo sonde, was getting moody and agreed to cooperate only when wrapped in a warm stove mitten between measurements :)
+
+with the support of my new ?research assistants? from i?isa?vik college, adele thomas, jasmine biswokarma, and violet anniskett, we collected another round of water-quality data from lakes and lagoons around utqia?vik.
+
+i also had the opportunity to visit dr. yvonne biswokarma?s basic general chemistry class at i?isa?vik college, where i shared my phd research on solute migration in permafrost and our ongoing work on lake and lagoon chemistry. we even took exee outside to test a nearby puddle together. thank you, yvonne, for welcoming me into your class!
+
+water was only part of the work. we also deployed new sensors around the city to monitor ground temperature and moisture and expand our observations of how local conditions and infrastructure affect permafrost.
+
+this was one of the hardest and most intense fieldwork periods i have experienced, but i am very happy that we accomplished everything we had planned. it was amazing teamwork, and i hope i was also able to give some support back to my mentors, howie epstein and matthew jull, who have supported so many of my research adventures.
+
+a huge thank you to ben, our bear guard, for keeping us safe in the field, and to bueci for their feedback and encouragement to expand our research to the drinking-water lagoon.
+
+this trip was made possible by the h.g. goodell fund in uva?s department of environmental sciences. the work is part of the uva environmental institute?s climate collaborative project, ?understanding and managing impacts of snow and water on permafrost in arctic communities,? with continued support from the climate fellows program and uva?s strategic investment fund.
+
+cold fingers, dying batteries, a moody exee in a stove mitten, and a lot of new data. i would call that a successful field trip :)
+
+#utqiagvik #alaska #permafrost #arcticscience #fieldwork #communityengagement #scienceeducation">
+<div class="post-photo"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Fieldwork &amp; communities</span><time>Oct 3, 2026</time></div><h2>Autumn lagoon fieldwork with Iḷisaġvik College students</h2><p>Field measurements with Adele Thomas, Jasmine Biswokarma, and Violet Anniskett; a chemistry class visit, instrumentation, and conversations with BUECI.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Another intense field season in Utqia?vik is complete!
+
+Running almost straight from a small single-engine plane into gusty wind to start lagoon measurements before dark sounded a little insane even in my own head :) But time was limited, and with Adele Thomas helping me, we completed our first lagoon measurements within just a few hours of arriving.
+
+That pretty much set the pace for the trip. Fingers were getting cold, the laptop battery could die within an hour, and in some places we already had to break through a thin layer of ice to reach the water. Even EXee, as I affectionately call our EXO sonde, was getting moody and agreed to cooperate only when wrapped in a warm stove mitten between measurements :)
+
+With the support of my new ?research assistants? from I?isa?vik College, Adele Thomas, Jasmine Biswokarma, and Violet Anniskett, we collected another round of water-quality data from lakes and lagoons around Utqia?vik.
+
+I also had the opportunity to visit Dr. Yvonne Biswokarma?s Basic General Chemistry class at I?isa?vik College, where I shared my PhD research on solute migration in permafrost and our ongoing work on lake and lagoon chemistry. We even took EXee outside to test a nearby puddle together. Thank you, Yvonne, for welcoming me into your class!
+
+Water was only part of the work. We also deployed new sensors around the city to monitor ground temperature and moisture and expand our observations of how local conditions and infrastructure affect permafrost.
+
+This was one of the hardest and most intense fieldwork periods I have experienced, but I am very happy that we accomplished everything we had planned. It was amazing teamwork, and I hope I was also able to give some support back to my mentors, Howie Epstein and Matthew Jull, who have supported so many of my research adventures.
+
+A huge thank you to Ben, our bear guard, for keeping us safe in the field, and to BUECI for their feedback and encouragement to expand our research to the drinking-water lagoon.
+
+This trip was made possible by the H.G. Goodell Fund in UVA?s Department of Environmental Sciences. The work is part of the UVA Environmental Institute?s Climate Collaborative project, ?Understanding and Managing Impacts of Snow and Water on Permafrost in Arctic Communities,? with continued support from the Climate Fellows program and UVA?s Strategic Investment Fund.
+
+Cold fingers, dying batteries, a moody EXee in a stove mitten, and a lot of new data. I would call that a successful field trip :)
+
+#Utqiagvik #Alaska #Permafrost #ArcticScience #Fieldwork #CommunityEngagement #ScienceEducation</div></details></div>
+</article><article class="post" data-category="Fieldwork" data-year="2026" data-search="alaska field observations, from thermokarst to ice wedges fieldwork highlights from arctic field travel and firsthand encounters with permafrost landforms and northern landscapes. a few personal highlights from alaska
+i feel very fortunate to have been part of a trip through alaska this september, and i?m very grateful to the organizers for making this experience possible.
+i came back with hundreds of photos and probably enough visual material for many future lectures :) there is something very different about seeing arctic landscapes and wildlife in person rather than through papers, datasets, and presentations. as a permafrost researcher, i was especially excited to see features such as ice wedges, thermokarst, pingos, frozen debris lobes, and patterned ground in person. i learned a lot, but also came back with many new questions and things i want to understand better.
+i was especially fortunate with wildlife sightings along the way, which gave me quite a collection of photos. and there was another personal first for me: flying in a small single-engine plane to utqia?vik! seeing the alaskan landscape from above was an experience i definitely will not forget. it was very difficult to stop taking pictures :)
+very grateful for the opportunity to see and learn so much, and excited to bring some of these observations and photos into my future lectures.
+#alaska #arctic #permafrost #arcticscience #fieldexperience #scienceeducation">
+<div class="post-photo"><img loading="lazy" src="assets/frost-heave-context.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Fieldwork</span><time>Sep 30, 2026</time></div><h2>Alaska field observations, from thermokarst to ice wedges</h2><p>Highlights from Arctic field travel and firsthand encounters with permafrost landforms and northern landscapes.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">A few personal highlights from Alaska
+I feel very fortunate to have been part of a trip through Alaska this September, and I?m very grateful to the organizers for making this experience possible.
+I came back with hundreds of photos and probably enough visual material for many future lectures :) There is something very different about seeing Arctic landscapes and wildlife in person rather than through papers, datasets, and presentations. As a permafrost researcher, I was especially excited to see features such as ice wedges, thermokarst, pingos, frozen debris lobes, and patterned ground in person. I learned a lot, but also came back with many new questions and things I want to understand better.
+I was especially fortunate with wildlife sightings along the way, which gave me quite a collection of photos. And there was another personal first for me: flying in a small single-engine plane to Utqia?vik! Seeing the Alaskan landscape from above was an experience I definitely will not forget. It was very difficult to stop taking pictures :)
+Very grateful for the opportunity to see and learn so much, and excited to bring some of these observations and photos into my future lectures.
+#Alaska #Arctic #Permafrost #ArcticScience #FieldExperience #ScienceEducation</div></details></div>
+</article><article class="post" data-category="Fieldwork" data-year="2026" data-search="learning about discontinuous permafrost in fairbanks fieldwork alexander kholodov demonstrated how vegetation and shallow ground temperature can vary across nearby locations; a visit organized with arctic architecture colleagues. can you tell where permafrost might be just by looking at the landscape?
+our journey north in alaska started on september 18 in fairbanks, where alexander kholodov from uaf?s geophysical institute permafrost laboratory showed us how vegetation and other features of the landscape can give clues about permafrost in an area of discontinuous permafrost.
+he demonstrated it with a thaw probe right there in the field. under the taller coniferous trees, the probe reached its maximum depth without hitting frozen ground. just a few meters away, among much shorter trees, it reached frozen ground at about 50 cm.
+just a few meters apart, but very different conditions beneath our feet. this is exactly what makes discontinuous permafrost so fascinating!
+earlier, marin kuizenga  , program administrator at toolik field station, introduced us to toolik and the research happening there, especially exciting since we would soon be heading there ourselves.
+i was also very happy to visit the permafrost lab and cold room. only ?5?c, practically warm! ?
+we finished the day with the arctic architecture group and a q&amp;a with grier hopkins, mayor of the fairbanks north star borough.
+permafrost, architecture, local perspectives, and a freezer. a pretty good day 1 ?
+and we hadn?t even reached the dalton highway yet.
+thank you to alexander kholodov, marin kuizenga  , grier hopkins, and everyone who took the time to share their knowledge and perspectives with us, and of course matthew jull and leena cho for organizing such a great start to the trip!
+ 
+#permafrost #arcticresearch #fairbanks #alaska #toolikfieldstation #arcticarchitecture #uaf">
+<div class="post-photo"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Fieldwork</span><time>Sep 20, 2026</time></div><h2>Learning about discontinuous permafrost in Fairbanks</h2><p>Alexander Kholodov demonstrated how vegetation and shallow ground temperature can vary across nearby locations; a visit organized with Arctic architecture colleagues.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Can you tell where permafrost might be just by looking at the landscape?
+Our journey north in Alaska started on September 18 in Fairbanks, where Alexander Kholodov from UAF?s Geophysical Institute Permafrost Laboratory showed us how vegetation and other features of the landscape can give clues about permafrost in an area of discontinuous permafrost.
+He demonstrated it with a thaw probe right there in the field. Under the taller coniferous trees, the probe reached its maximum depth without hitting frozen ground. Just a few meters away, among much shorter trees, it reached frozen ground at about 50 cm.
+Just a few meters apart, but very different conditions beneath our feet. This is exactly what makes discontinuous permafrost so fascinating!
+Earlier, Marin Kuizenga  , Program Administrator at Toolik Field Station, introduced us to Toolik and the research happening there, especially exciting since we would soon be heading there ourselves.
+I was also very happy to visit the permafrost lab and cold room. Only ?5?C, practically warm! ?
+We finished the day with the Arctic architecture group and a Q&amp;A with Grier Hopkins, Mayor of the Fairbanks North Star Borough.
+Permafrost, architecture, local perspectives, and a freezer. A pretty good Day 1 ?
+And we hadn?t even reached the Dalton Highway yet.
+Thank you to Alexander Kholodov, Marin Kuizenga  , Grier Hopkins, and everyone who took the time to share their knowledge and perspectives with us, and of course Matthew Jull and Leena Cho for organizing such a great start to the trip!
+ 
+#Permafrost #ArcticResearch #Fairbanks #Alaska #ToolikFieldStation #ArcticArchitecture #UAF</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="navigating the new arctic community meeting in fairbanks conferences sharing infrastructure and permafrost research, learning from arctic elders and community members, and joining an interdisciplinary research trip. finally got my selfie with the polar bear! ?????
+but that was definitely not the only highlight of my time in fairbanks.
+the 2026 nna annual community meeting in fairbanks was a great way to start what is turning into a much bigger alaska trip.
+this week, i had the opportunity to present our work on how infrastructure-driven snow redistribution and water movement affect permafrost thaw in utqia?vik, alaska, and to join the resilience in arctic infrastructure-environment interactions workshop.
+but the meeting was about much more than presenting research. i learned a lot from discussions about community engagement, from listening to the perspectives and experiences shared by arctic elders, and from meeting colleagues working across very different areas of arctic research.
+i also really enjoyed the field trips organized as part of the meeting. i was especially happy to visit the @uaf
+uaf geophysical institute and see some of my colleagues in their ?natural environment? ?
+a special thank you to jana peirce and everyone who helped organize the ?multimedia workshop: indigenous and community perspectives on climate-driven hazards.? it gave us a chance to step away from sharing research and instead share our stories and passions, listen to one another, and create art together. i especially appreciated hearing the experiences and perspectives shared by indigenous and community participants, and getting to know so many wonderful people beyond their research and professional roles. it was a very different kind of conference experience, and one i will remember.
+thank you to the nna community office and university of alaska fairbanks for bringing this community together, and especially for the financial support that made it possible for me to attend. i am also grateful to the organizers, speakers, elders, community members, and researchers who shared their knowledge, experiences, and perspectives throughout the meeting.
+but the conference is only the beginning of this alaska trip ?
+next, i am joining matthew jull, leena cho, and their and their architecture students from uva?s advanced research studio, ?permafrost transects&quot;, for part of their journey north along the dalton highway from fairbanks to deadhorse.
+and after that, on to utqia?vik for fieldwork!
+fairbanks ? dalton highway ? deadhorse ? utqia?vik. quite a week ahead! ?
+#navigatingthenewarctic #nna #arcticresearch #permafrost #arcticcommunities #communityengagement #interdisciplinaryresearch #alaska">
+<div class="post-photo"><img loading="lazy" src="assets/field-teaching.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>Sep 18, 2026</time></div><h2>Navigating the New Arctic community meeting in Fairbanks</h2><p>Sharing infrastructure and permafrost research, learning from Arctic Elders and community members, and joining an interdisciplinary research trip.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Finally got my selfie with the polar bear! ?????
+But that was definitely not the only highlight of my time in Fairbanks.
+The 2026 NNA Annual Community Meeting in Fairbanks was a great way to start what is turning into a much bigger Alaska trip.
+This week, I had the opportunity to present our work on how infrastructure-driven snow redistribution and water movement affect permafrost thaw in Utqia?vik, Alaska, and to join the Resilience in Arctic Infrastructure-Environment Interactions workshop.
+But the meeting was about much more than presenting research. I learned a lot from discussions about community engagement, from listening to the perspectives and experiences shared by Arctic Elders, and from meeting colleagues working across very different areas of Arctic research.
+I also really enjoyed the field trips organized as part of the meeting. I was especially happy to visit the @UAF
+UAF Geophysical Institute and see some of my colleagues in their ?natural environment? ?
+A special thank you to Jana Peirce and everyone who helped organize the ?Multimedia Workshop: Indigenous and Community Perspectives on Climate-Driven Hazards.? It gave us a chance to step away from sharing research and instead share our stories and passions, listen to one another, and create art together. I especially appreciated hearing the experiences and perspectives shared by Indigenous and community participants, and getting to know so many wonderful people beyond their research and professional roles. It was a very different kind of conference experience, and one I will remember.
+Thank you to the NNA Community Office and University of Alaska Fairbanks for bringing this community together, and especially for the financial support that made it possible for me to attend. I am also grateful to the organizers, speakers, Elders, community members, and researchers who shared their knowledge, experiences, and perspectives throughout the meeting.
+But the conference is only the beginning of this Alaska trip ?
+Next, I am joining Matthew Jull, Leena Cho, and their and their architecture students from UVA?s Advanced Research Studio, ?Permafrost Transects&quot;, for part of their journey north along the Dalton Highway from Fairbanks to Deadhorse.
+And after that, on to Utqia?vik for fieldwork!
+Fairbanks ? Dalton Highway ? Deadhorse ? Utqia?vik. Quite a week ahead! ?
+#NavigatingTheNewArctic #NNA #ArcticResearch #Permafrost #ArcticCommunities #CommunityEngagement #InterdisciplinaryResearch #Alaska</div></details></div>
+</article><article class="post" data-category="Academic life" data-year="2026" data-search="what being a uva climate fellow has meant academic life reflecting on mentorship, interdisciplinary collaboration, a showcase presentation award, and the support behind arctic research. what does it mean to be a climate fellow?
+a week ago, i was very happy to receive the best presentation award at the uva climate fellows research showcase.
+i quite often mention that i am a climate fellow, but what does it actually mean?
+i joined the program in 2024 to work on the arctic cities project. with more than 100 applications for climate fellow postdoctoral positions that year, i was excited to be selected and join a group of people working on climate from very different perspectives.
+and being a climate fellow turned out to be about much more than just research.
+i got two amazing mentors from very different disciplines, howie epstein and matthew jull, but also a whole community of fellows and faculty around me. over these two years, we have shared our research across disciplines, learned how to communicate it beyond our usual scientific circles, talked about careers and mentoring, and found connections between projects that might otherwise never have crossed paths.
+i think the cohort itself has been one of the best parts. a postdoc can sometimes be a pretty individual experience, and this program made it much less so. maybe some of us will end up as unexpected collaborators in the future, or friends. i hope both ?
+looking back, i realize that these two years have given me much more than another research project. they have helped me understand better what kind of scientist, mentor, and hopefully future faculty member i want to be.
+i am very grateful to henry boachi for supporting us throughout the program, to karen mcglathery and the uva environmental institute for making this program possible, and to the university of virginia strategic investment fund for supporting the climate fellows program. and, of course, a very special thank you to howie and matthew for their mentorship, trust, and support.
+i am also very thankful to my colleagues and friends in the department of environmental sciences at uva, my academic home as a postdoctoral research associate, and to all the collaborators, students, and fellow climate fellows who have been part of these two years. there are too many people to name, but definitely not too many to appreciate.
+so yes, receiving the best presentation award was exciting. but it also gave me a good reason to stop for a moment, look back, and realize how much being a climate fellow has already given me.
+#climatefellows #climateresearch #postdoc #interdisciplinaryresearch #arcticresearch #permafrost #uva #environmentalscience">
+<div class="post-photo"><img loading="lazy" src="assets/portrait-frost-heave.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Academic life</span><time>Sep 18, 2026</time></div><h2>What being a UVA Climate Fellow has meant</h2><p>Reflecting on mentorship, interdisciplinary collaboration, a showcase presentation award, and the support behind Arctic research.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">What does it mean to be a Climate Fellow?
+A week ago, I was very happy to receive the Best Presentation Award at the UVA Climate Fellows Research Showcase.
+I quite often mention that I am a Climate Fellow, but what does it actually mean?
+I joined the program in 2024 to work on the Arctic Cities project. With more than 100 applications for Climate Fellow postdoctoral positions that year, I was excited to be selected and join a group of people working on climate from very different perspectives.
+And being a Climate Fellow turned out to be about much more than just research.
+I got two amazing mentors from very different disciplines, Howie Epstein and Matthew Jull, but also a whole community of fellows and faculty around me. Over these two years, we have shared our research across disciplines, learned how to communicate it beyond our usual scientific circles, talked about careers and mentoring, and found connections between projects that might otherwise never have crossed paths.
+I think the cohort itself has been one of the best parts. A postdoc can sometimes be a pretty individual experience, and this program made it much less so. Maybe some of us will end up as unexpected collaborators in the future, or friends. I hope both ?
+Looking back, I realize that these two years have given me much more than another research project. They have helped me understand better what kind of scientist, mentor, and hopefully future faculty member I want to be.
+I am very grateful to Henry Boachi for supporting us throughout the program, to Karen McGlathery and the UVA Environmental Institute for making this program possible, and to the University of Virginia Strategic Investment Fund for supporting the Climate Fellows program. And, of course, a very special thank you to Howie and Matthew for their mentorship, trust, and support.
+I am also very thankful to my colleagues and friends in the Department of Environmental Sciences at UVA, my academic home as a Postdoctoral Research Associate, and to all the collaborators, students, and fellow Climate Fellows who have been part of these two years. There are too many people to name, but definitely not too many to appreciate.
+So yes, receiving the Best Presentation Award was exciting. But it also gave me a good reason to stop for a moment, look back, and realize how much being a Climate Fellow has already given me.
+#ClimateFellows #ClimateResearch #Postdoc #InterdisciplinaryResearch #ArcticResearch #Permafrost #UVA #EnvironmentalScience</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="presenting at the nna 2026 annual meeting conferences inviting researchers and community members to discussions about infrastructure, snow, water, and permafrost change. happy to be in fairbanks for the 2026 nna annual community meeting!
+
+on wednesday, i?ll be sharing our work, ?infrastructure-driven snow redistribution and hydrological controls on permafrost thaw in utqia?vik, alaska,? during the session resilience in arctic infrastructure-environment interactions (part 1).
+
+our research looks at a fairly simple question with very practical importance: how do roads, buildings, snow accumulation, and water movement change the way permafrost thaws around a community?
+
+? wednesday, september 16 | 3:00?4:30 pm | gruening 412
+
+the conversation will continue on thursday with session 3.2, a workshop focused on bringing together research and community perspectives around arctic infrastructure and environmental change. i?ll be joining the workshop as well, and we would be very happy to see community members, researchers, and anyone interested in these questions there.
+
+? thursday | 1:30?3:00 pm | 305 usibelli
+
+looking forward to listening, learning, sharing our work, and meeting people from across the arctic.
+
+p.s. i took this photo during the arctic action workshop this may in utqia?vik, and it reminds me how warm and welcoming the gathering felt, with space for different perspectives, experiences, and knowledge.
+
+#nna #navigatingthenewarctic #arcticcommunities #permafrost #arcticresearch #utqiagvik #alaska">
+<div class="post-photo"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>Sep 15, 2026</time></div><h2>Presenting at the NNA 2026 annual meeting</h2><p>Inviting researchers and community members to discussions about infrastructure, snow, water, and permafrost change.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Happy to be in Fairbanks for the 2026 NNA Annual Community Meeting!
+
+On Wednesday, I?ll be sharing our work, ?Infrastructure-Driven Snow Redistribution and Hydrological Controls on Permafrost Thaw in Utqia?vik, Alaska,? during the session Resilience in Arctic Infrastructure-Environment Interactions (Part 1).
+
+Our research looks at a fairly simple question with very practical importance: how do roads, buildings, snow accumulation, and water movement change the way permafrost thaws around a community?
+
+? Wednesday, September 16 | 3:00?4:30 PM | Gruening 412
+
+The conversation will continue on Thursday with Session 3.2, a workshop focused on bringing together research and community perspectives around Arctic infrastructure and environmental change. I?ll be joining the workshop as well, and we would be very happy to see community members, researchers, and anyone interested in these questions there.
+
+? Thursday | 1:30?3:00 PM | 305 Usibelli
+
+Looking forward to listening, learning, sharing our work, and meeting people from across the Arctic.
+
+P.s. I took this photo during the Arctic ACTION Workshop this May in Utqia?vik, and it reminds me how warm and welcoming the gathering felt, with space for different perspectives, experiences, and knowledge.
+
+#NNA #NavigatingTheNewArctic #ArcticCommunities #Permafrost #ArcticResearch #Utqiagvik #Alaska</div></details></div>
+</article><article class="post" data-category="Academic life" data-year="2026" data-search="the journey toward an independent research career academic life a personal reflection on learning new research skills, professional growth, and pursuing a faculty career. i&#x27;ve wanted to become a professor since my second master&#x27;s.
+when i started my postdoc a little over two years ago, though, i could make a pretty good list of reasons why i wasn&#x27;t &quot;ready.&quot;
+i had publications, but no first-author paper. very little field experience. no international oral presentations. i had never independently mentored a student or reviewed a manuscript.
+so i made a list.
+not really a checklist for my cv, but a list of things i wanted to learn if i was serious about becoming an independent scientist.
+and then i started working on them.
+today i have first-author publications. i&#x27;ve spent enough time doing arctic fieldwork that i&#x27;ve stopped counting field campaigns. i&#x27;ve presented internationally, mentored students, reviewed papers, learned environmental geophysics and remote sensing, developed grant ideas, convened scientific sessions, and started building collaborations around my own research questions.
+all in a little over two years.
+and yet, i&#x27;m still applying for jobs. and i&#x27;m still getting rejections.
+i&#x27;d be lying if i said they never make me wonder whether i&#x27;m good enough for the career i&#x27;ve been working toward.
+but then i look at that old list.
+and it reminds me of something that i wish i&#x27;d understood much earlier:
+&quot;i haven&#x27;t done this yet&quot; and &quot;i can&#x27;t do this&quot; are two very different things.
+there will always be something missing from my cv. but now, when i find it, i&#x27;m much more likely to ask &quot;how can i learn this?&quot; than &quot;does this mean i&#x27;m not ready?&quot;
+i&#x27;m sharing this because i suspect i&#x27;m not the only postdoc or phd student who has looked at someone else&#x27;s cv and felt impossibly far behind.
+your current cv isn&#x27;t your final cv.
+and a rejection isn&#x27;t your final answer either.
+as for me, i&#x27;m still going after that tenure-track dream. i&#x27;m also #opentowork and open to other research paths where my background in arctic and permafrost science, field research, geophysics, remote sensing, modeling, and interdisciplinary environmental research could be useful.
+if something comes to mind, i&#x27;d love to hear about it.
+and then i&#x27;ll keep trying.">
+<div class="post-photo"><img loading="lazy" src="assets/frost-heave-context.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Academic life</span><time>Aug 21, 2026</time></div><h2>The journey toward an independent research career</h2><p>A personal reflection on learning new research skills, professional growth, and pursuing a faculty career.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">I&#x27;ve wanted to become a professor since my second master&#x27;s.
+When I started my postdoc a little over two years ago, though, I could make a pretty good list of reasons why I wasn&#x27;t &quot;ready.&quot;
+I had publications, but no first-author paper. Very little field experience. No international oral presentations. I had never independently mentored a student or reviewed a manuscript.
+So I made a list.
+Not really a checklist for my CV, but a list of things I wanted to learn if I was serious about becoming an independent scientist.
+And then I started working on them.
+Today I have first-author publications. I&#x27;ve spent enough time doing Arctic fieldwork that I&#x27;ve stopped counting field campaigns. I&#x27;ve presented internationally, mentored students, reviewed papers, learned environmental geophysics and remote sensing, developed grant ideas, convened scientific sessions, and started building collaborations around my own research questions.
+All in a little over two years.
+And yet, I&#x27;m still applying for jobs. And I&#x27;m still getting rejections.
+I&#x27;d be lying if I said they never make me wonder whether I&#x27;m good enough for the career I&#x27;ve been working toward.
+But then I look at that old list.
+And it reminds me of something that I wish I&#x27;d understood much earlier:
+&quot;I haven&#x27;t done this yet&quot; and &quot;I can&#x27;t do this&quot; are two very different things.
+There will always be something missing from my CV. But now, when I find it, I&#x27;m much more likely to ask &quot;How can I learn this?&quot; than &quot;Does this mean I&#x27;m not ready?&quot;
+I&#x27;m sharing this because I suspect I&#x27;m not the only postdoc or PhD student who has looked at someone else&#x27;s CV and felt impossibly far behind.
+Your current CV isn&#x27;t your final CV.
+And a rejection isn&#x27;t your final answer either.
+As for me, I&#x27;m still going after that tenure-track dream. I&#x27;m also #OpenToWork and open to other research paths where my background in Arctic and permafrost science, field research, geophysics, remote sensing, modeling, and interdisciplinary environmental research could be useful.
+If something comes to mind, I&#x27;d love to hear about it.
+And then I&#x27;ll keep trying.</div></details></div>
+</article><article class="post" data-category="Professional development" data-year="2026" data-search="completing the acs reviewer lab professional development developing skills in responsible and constructive manuscript peer review. happy to share that i?ve completed the acs reviewer lab!
+having recently had the opportunity to review manuscripts myself, i wanted to learn more about the peer-review process and how to provide thoughtful, constructive, and responsible feedback to authors.
+thank you to american chemical society publications for putting together such a useful course and making this training available to researchers. it was a great opportunity to strengthen my understanding of peer review and the responsibilities that come with being a reviewer.
+always something new to learn!
+#peerreview #academicpublishing #professionaldevelopment #acsreviewerlab">
+<div class="post-photo"><img loading="lazy" src="assets/field-teaching.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Professional development</span><time>Aug 21, 2026</time></div><h2>Completing the ACS Reviewer Lab</h2><p>Developing skills in responsible and constructive manuscript peer review.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Happy to share that I?ve completed the ACS Reviewer Lab!
+Having recently had the opportunity to review manuscripts myself, I wanted to learn more about the peer-review process and how to provide thoughtful, constructive, and responsible feedback to authors.
+Thank you to American Chemical Society Publications for putting together such a useful course and making this training available to researchers. It was a great opportunity to strengthen my understanding of peer review and the responsibilities that come with being a reviewer.
+Always something new to learn!
+#PeerReview #AcademicPublishing #ProfessionalDevelopment #ACSReviewerLab</div></details></div>
+</article><article class="post" data-category="Permafrost history" data-year="2026" data-search="reading the history of frozen-ground research permafrost history a historical exploration of early descriptions of permafrost, the shergin shaft, and infrastructure in cold regions. there was supposed to be another post here about a new arctic field season. but our trip was postponed. unexpectedly, that gave me a chance to dig deeper into something i work on today: the history of interactions between infrastructure and permafrost.
+this is not the history of when people first understood frozen ground?indigenous peoples across the circumpolar north have lived with and adapted to these environments for millennia. what fascinated me was how this knowledge gradually became formalized in science and engineering and incorporated into northern development.
+the historical trail is amazing: petr golovin and matvei glebov reporting on frozen ground in yakutsk in the 1640s; joseph robson writing about it at hudson bay in 1752; and fedor shergin?s search for groundwater in 1828 leading to a 116-m shaft through frozen ground, later studied by adolph erman and alexander von middendorff.
+from there, the story moves from observing permafrost to learning how to build on it?and eventually realizing that infrastructure itself changes permafrost. following the work of mikhail sumgin, pavel melnikov, nikolai tsytovich, vladimir kudryavtsev, mikhail kim, and many others opened yet another historical rabbit hole.
+some historical sources are fascinating not only for what they document, but simply for how they are written. i was especially drawn into mikhail sumgin and boris demchinsky?s 1938 ?????????? ?????? (? ??????? ?????? ????????) [conquest of the north (in the region of permafrost)]. you can almost feel and hear the north through the words.
+the only problem is that every old reference leads to three more that i now want to read.
+some of my favorite discoveries have been papers by shiklomanov, landers, streletskiy and their co-authors, whose historical perspectives on permafrost science, engineering, and northern infrastructure have led me to many more sources i now want to explore.
+and i am sure many important names, stories, and perspectives are still missing from what i have read or simply slipping past my attention. but perhaps that is one of the best parts of digging into the history of your own field: we are always learning.
+if only there were enough time to read it all...
+so, no field-season post yet. but this unexpected detour turned out to be pretty fascinating.
+and if you have a favorite permafrost book, paper, historical report, or work on indigenous knowledge of and relationships with frozen-ground environments, please share it. i would love to make my already-too-long reading list even longer!
+
+photos:
+1 ? robson, 1752. early written observations of frozen ground in hudson bay.
+2, 3 ? shergin shaft outside and cross-section, yakutsk
+ done for groundwater in 1828 that, &gt;116 m.
+4 ? tynda?largu crossing, 1926. early road development toward yakutia, at a time when engineering approaches to construction on permafrost were still developing.
+
+#permafrost #arcticresearch #geocryology #sciencehistory #infrastructure">
+<div class="post-photo"><img loading="lazy" src="assets/arctic-elevated-building.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Permafrost history</span><time>Aug 20, 2026</time></div><h2>Reading the history of frozen-ground research</h2><p>A historical exploration of early descriptions of permafrost, the Shergin Shaft, and infrastructure in cold regions.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">There was supposed to be another post here about a new Arctic field season. But our trip was postponed. Unexpectedly, that gave me a chance to dig deeper into something I work on today: the history of interactions between infrastructure and permafrost.
+This is not the history of when people first understood frozen ground?Indigenous Peoples across the circumpolar North have lived with and adapted to these environments for millennia. What fascinated me was how this knowledge gradually became formalized in science and engineering and incorporated into northern development.
+The historical trail is amazing: Petr Golovin and Matvei Glebov reporting on frozen ground in Yakutsk in the 1640s; Joseph Robson writing about it at Hudson Bay in 1752; and Fedor Shergin?s search for groundwater in 1828 leading to a 116-m shaft through frozen ground, later studied by Adolph Erman and Alexander von Middendorff.
+From there, the story moves from observing permafrost to learning how to build on it?and eventually realizing that infrastructure itself changes permafrost. Following the work of Mikhail Sumgin, Pavel Melnikov, Nikolai Tsytovich, Vladimir Kudryavtsev, Mikhail Kim, and many others opened yet another historical rabbit hole.
+Some historical sources are fascinating not only for what they document, but simply for how they are written. I was especially drawn into Mikhail Sumgin and Boris Demchinsky?s 1938 ?????????? ?????? (? ??????? ?????? ????????) [Conquest of the North (in the Region of Permafrost)]. You can almost feel and hear the North through the words.
+The only problem is that every old reference leads to three more that I now want to read.
+Some of my favorite discoveries have been papers by Shiklomanov, Landers, Streletskiy and their co-authors, whose historical perspectives on permafrost science, engineering, and northern infrastructure have led me to many more sources I now want to explore.
+And I am sure many important names, stories, and perspectives are still missing from what I have read or simply slipping past my attention. But perhaps that is one of the best parts of digging into the history of your own field: we are always learning.
+If only there were enough time to read it all...
+So, no field-season post yet. But this unexpected detour turned out to be pretty fascinating.
+And if you have a favorite permafrost book, paper, historical report, or work on Indigenous knowledge of and relationships with frozen-ground environments, please share it. I would love to make my already-too-long reading list even longer!
+
+Photos:
+1 ? Robson, 1752. Early written observations of frozen ground in Hudson Bay.
+2, 3 ? Shergin Shaft outside and cross-section, Yakutsk
+ done for groundwater in 1828 that, &gt;116 m.
+4 ? Tynda?Largu crossing, 1926. Early road development toward Yakutia, at a time when engineering approaches to construction on permafrost were still developing.
+
+#Permafrost #ArcticResearch #Geocryology #ScienceHistory #Infrastructure</div></details></div>
+</article><article class="post" data-category="Teaching" data-year="2026" data-search="teaching does not always happen in a classroom teaching reflecting on the uva tomorrow’s professors today program and the relationships between mentoring, teaching, and field observations. teaching doesn&#x27;t always happen in a classroom. sometimes it happens standing knee-deep in arctic water.
+over the past year, alongside my research, i completed tomorrow&#x27;s professors today, the university of virginia&#x27;s teaching certificate program. although i had several years of university teaching experience before joining uva, i wanted to become a more intentional educator?not simply a more experienced one.
+at first glance, investing so much time in teaching development might seem to compete with research. i came away with the opposite impression. many of the same skills that make us better educators?listening carefully, communicating clearly, giving constructive feedback, and reflecting on our own practices?also make us better researchers, mentors, collaborators, and partners when working with local communities.
+what i appreciated most was that the program treated teaching as a scholarly practice. we observed each other&#x27;s classes, invited colleagues to critique our own teaching, designed original courses from learning objectives to assessments, and reflected on how our teaching aligns with our values.
+one idea has stayed with me: we readily expose our research to peer review, but we often teach behind closed doors. yet both improve through thoughtful feedback, reflection, and continuous refinement.
+as i continue building my academic career, this experience has reinforced that research, teaching, and mentorship are not competing priorities?they strengthen one another.
+i&#x27;d love to hear from other educators and mentors: what experience has most influenced the way you teach or mentor students?
+if you&#x27;re looking for a guest speaker for a course or seminar, i&#x27;d also be happy to contribute. my research and teaching topics include permafrost, arctic environmental change, geophysics, remote sensing, and gas hydrates. feel free to reach out if there might be a good fit.
+p.s. this photo always makes me smile. we were discussing field observations while standing in arctic water, and i was apparently waiting for questions. it reminds me that some of the best teaching moments happen outside a traditional classroom.">
+<div class="post-photo"><img loading="lazy" src="assets/wetland-fieldwork.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Teaching</span><time>Aug 6, 2026</time></div><h2>Teaching does not always happen in a classroom</h2><p>Reflecting on the UVA Tomorrow’s Professors Today program and the relationships between mentoring, teaching, and field observations.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Teaching doesn&#x27;t always happen in a classroom. Sometimes it happens standing knee-deep in Arctic water.
+Over the past year, alongside my research, I completed Tomorrow&#x27;s Professors Today, the University of Virginia&#x27;s teaching certificate program. Although I had several years of university teaching experience before joining UVA, I wanted to become a more intentional educator?not simply a more experienced one.
+At first glance, investing so much time in teaching development might seem to compete with research. I came away with the opposite impression. Many of the same skills that make us better educators?listening carefully, communicating clearly, giving constructive feedback, and reflecting on our own practices?also make us better researchers, mentors, collaborators, and partners when working with local communities.
+What I appreciated most was that the program treated teaching as a scholarly practice. We observed each other&#x27;s classes, invited colleagues to critique our own teaching, designed original courses from learning objectives to assessments, and reflected on how our teaching aligns with our values.
+One idea has stayed with me: we readily expose our research to peer review, but we often teach behind closed doors. Yet both improve through thoughtful feedback, reflection, and continuous refinement.
+As I continue building my academic career, this experience has reinforced that research, teaching, and mentorship are not competing priorities?they strengthen one another.
+I&#x27;d love to hear from other educators and mentors: what experience has most influenced the way you teach or mentor students?
+If you&#x27;re looking for a guest speaker for a course or seminar, I&#x27;d also be happy to contribute. My research and teaching topics include permafrost, Arctic environmental change, geophysics, remote sensing, and gas hydrates. Feel free to reach out if there might be a good fit.
+P.s. This photo always makes me smile. We were discussing field observations while standing in Arctic water, and I was apparently waiting for questions. It reminds me that some of the best teaching moments happen outside a traditional classroom.</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="reflections from acop 2026 in mongolia conferences research presentations and scientific exchanges at the asian conference on permafrost in ulaanbaatar. reflecting on an inspiring week at the 3rd asian conference on permafrost (acop 2026) in ulaanbaatar, mongolia (june 29 ? july 2, 2026)!
+it was a pleasure to present my research on geophysical imaging of near-surface permafrost in utqia?vik, alaska, exploring how electrical resistivity tomography (ert) and ground penetrating radar (gpr) can improve our understanding of permafrost degradation in arctic urban environments.
+beyond the presentation itself, one of the most valuable parts of the conference was reconnecting with colleagues, meeting new researchers from around the world, and exchanging ideas across disciplines. conferences like acop remind me how collaborative permafrost research is and how much we can learn from one another.
+it was also a wonderful opportunity to visit mongolia for the first time and experience its unique landscapes, culture, and hospitality. hosting an international permafrost conference in a region facing its own cold-region environmental challenges provided an inspiring setting for scientific discussions and new collaborations.
+i am sincerely grateful to the conference organizers, everyone who attended my talk, and all the colleagues who shared insightful discussions throughout the week. these conversations will undoubtedly help shape the next steps of my research.
+finally, i would like to thank the organizations that made my participation possible through travel support: the united states permafrost association peep grant, the acop 2026 travel grant, and pyrn-permafrost young researchers network. their support enables early-career researchers to participate in the international scientific community and build lasting collaborations. a special thank you to the uva environmental institute for supporting the research presented at the conference through the climate collaborative program and the strategic investment fund (climate fellows program).
+looking forward to continuing these conversations and collaborations!
+#acop2026 #permafrost #arcticresearch #geophysics #sciencecommunication #earlycareerresearcher">
+<div class="post-photo"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>Jul 30, 2026</time></div><h2>Reflections from ACOP 2026 in Mongolia</h2><p>Research presentations and scientific exchanges at the Asian Conference on Permafrost in Ulaanbaatar.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Reflecting on an inspiring week at the 3rd Asian Conference on Permafrost (ACOP 2026) in Ulaanbaatar, Mongolia (June 29 ? July 2, 2026)!
+It was a pleasure to present my research on geophysical imaging of near-surface permafrost in Utqia?vik, Alaska, exploring how Electrical Resistivity Tomography (ERT) and Ground Penetrating Radar (GPR) can improve our understanding of permafrost degradation in Arctic urban environments.
+Beyond the presentation itself, one of the most valuable parts of the conference was reconnecting with colleagues, meeting new researchers from around the world, and exchanging ideas across disciplines. Conferences like ACOP remind me how collaborative permafrost research is and how much we can learn from one another.
+It was also a wonderful opportunity to visit Mongolia for the first time and experience its unique landscapes, culture, and hospitality. Hosting an international permafrost conference in a region facing its own cold-region environmental challenges provided an inspiring setting for scientific discussions and new collaborations.
+I am sincerely grateful to the conference organizers, everyone who attended my talk, and all the colleagues who shared insightful discussions throughout the week. These conversations will undoubtedly help shape the next steps of my research.
+Finally, I would like to thank the organizations that made my participation possible through travel support: the United States Permafrost Association PEEP Grant, the ACOP 2026 Travel Grant, and PYRN-Permafrost Young Researchers Network. Their support enables early-career researchers to participate in the international scientific community and build lasting collaborations. A special thank you to the UVA Environmental Institute for supporting the research presented at the conference through the Climate Collaborative program and the Strategic Investment Fund (Climate Fellows Program).
+Looking forward to continuing these conversations and collaborations!
+#ACOP2026 #Permafrost #ArcticResearch #Geophysics #ScienceCommunication #EarlyCareerResearcher</div></details></div>
+</article><article class="post" data-category="Fieldwork &amp; communities" data-year="2026" data-search="arctic action and partner meetings in utqiaġvik fieldwork &amp; communities fieldwork and conversations with tnha, bueci, and iḷisaġvik college, combined with arctic action activities and a visit to the permafrost tunnel. another trip to utqia?vik, and somehow it never becomes routine. every visit brings new people, new conversations, and new perspectives on arctic change and community needs.
+
+this trip was packed with meetings with partners from tnha, bueci, and i?isa?vik college foundation, where we shared findings from our closing nna project, understanding the changing natural-built landscape in an arctic community, and continued work within the climate collaborative project, address snowpack and extreme melt in arctic cities. i also had the opportunity to present some of our geophysics and lagoon chemistry research, receive valuable feedback, and find inspiration for new directions. 
+
+the weather rewarded us with blinding white snow, fresh negative temperatures, and breathtaking frozen landscapes, but it also completely froze our lagoon sampling plans. even ice hammering would not have helped. instead, we focused on maintaining our micrometeorological sensor network around the city and participating in the nsf-funded arctic action workshop.
+
+i am very grateful for the opportunity to meet people from different arctic communities, learn from their experiences and knowledge, and engage in conversations with both researchers and local knowledge holders. these exchanges are always among the most meaningful parts of fieldwork. sharing findings with community partners and receiving their feedback remains one of the most rewarding aspects of this work. the workshop was also a celebration of community and culture. one of my favorite memories was cooking russian blini, participating in a cultural exchange, and sharing traditions through food, stories, and gifts. moments like these remind me that collaboration is built not only through research discussions, but also through the relationships and experiences we share.
+
+one of the highlights of the trip was visiting the utqia?vik permafrost tunnel. as someone who usually sees the subsurface through geophysics and temperature data, it was incredible to physically step below the surface and stand inside massive ice wedges for the first time. huge thanks to benjamin jones for making this experience possible.
+
+this field season was supported by the department of environmental sciences through the goodell fund project, permafrost dynamics in arctic coastal alaska: climate and subsurface geological controls, as well as by the uva environmental institute. i am also grateful to our community partners, collaborators, my mentor, and the organizers of the arctic action workshop. i acknowledge that this research was conducted on the ancestral lands of the i?upiat people, whose knowledge, stewardship, and lived experience are essential to understanding environmental change in the arctic.
+
+and yes?another trip to utqia?vik also meant another polar bear sighting. ??????
+
+#arcticresearch #permafrost #utqiagvik #communityengagedresearch #knowledgecoproduction #climatechange #fieldwork #arcticaction #environmentalscience #alaskaresearch">
+<div class="post-photo"><img loading="lazy" src="assets/community-presentation.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Fieldwork &amp; communities</span><time>Jun 5, 2026</time></div><h2>Arctic ACTION and partner meetings in Utqiaġvik</h2><p>Fieldwork and conversations with TNHA, BUECI, and Iḷisaġvik College, combined with Arctic ACTION activities and a visit to the permafrost tunnel.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Another trip to Utqia?vik, and somehow it never becomes routine. Every visit brings new people, new conversations, and new perspectives on Arctic change and community needs.
+
+This trip was packed with meetings with partners from TNHA, BUECI, and I?isa?vik College Foundation, where we shared findings from our closing NNA project, Understanding the Changing Natural-Built Landscape in an Arctic Community, and continued work within the Climate Collaborative project, Address Snowpack and Extreme Melt in Arctic Cities. I also had the opportunity to present some of our geophysics and lagoon chemistry research, receive valuable feedback, and find inspiration for new directions. 
+
+The weather rewarded us with blinding white snow, fresh negative temperatures, and breathtaking frozen landscapes, but it also completely froze our lagoon sampling plans. Even ice hammering would not have helped. Instead, we focused on maintaining our micrometeorological sensor network around the city and participating in the NSF-funded Arctic ACTION Workshop.
+
+I am very grateful for the opportunity to meet people from different Arctic communities, learn from their experiences and knowledge, and engage in conversations with both researchers and local knowledge holders. These exchanges are always among the most meaningful parts of fieldwork. Sharing findings with community partners and receiving their feedback remains one of the most rewarding aspects of this work. The workshop was also a celebration of community and culture. One of my favorite memories was cooking Russian blini, participating in a cultural exchange, and sharing traditions through food, stories, and gifts. Moments like these remind me that collaboration is built not only through research discussions, but also through the relationships and experiences we share.
+
+One of the highlights of the trip was visiting the Utqia?vik Permafrost Tunnel. As someone who usually sees the subsurface through geophysics and temperature data, it was incredible to physically step below the surface and stand inside massive ice wedges for the first time. Huge thanks to Benjamin Jones for making this experience possible.
+
+This field season was supported by the Department of Environmental Sciences through the Goodell Fund project, Permafrost Dynamics in Arctic Coastal Alaska: Climate and Subsurface Geological Controls, as well as by the UVA Environmental Institute. I am also grateful to our community partners, collaborators, my mentor, and the organizers of the Arctic ACTION Workshop. I acknowledge that this research was conducted on the ancestral lands of the I?upiat people, whose knowledge, stewardship, and lived experience are essential to understanding environmental change in the Arctic.
+
+And yes?another trip to Utqia?vik also meant another polar bear sighting. ??????
+
+#ArcticResearch #Permafrost #Utqiagvik #CommunityEngagedResearch #KnowledgeCoProduction #ClimateChange #Fieldwork #ArcticACTION #EnvironmentalScience #AlaskaResearch</div></details></div>
+</article><article class="post" data-category="Research" data-year="2026" data-search="reflecting on the 2026 permafrost geophysics publication research sharing the publication of a collaborative paper on near-surface permafrost in utqiaġvik and thanking coauthors, partners, and mentors. now, a few weeks after the academic year has concluded and there is finally some time to reflect on achievements, challenges, and lessons learned, i feel truly grateful for this year.
+
+i am happy to share that i received the postdoctoral research excellence award from the environmental sciences department for publication for the 2025?2026 academic year. it is very meaningful to me that this was the first year the award was presented.
+
+this recognition is connected to my first first-authored journal article, recently published in the cryosphere:
+
+?characterizing near-surface permafrost in utqia?vik, alaska, using electrical resistivity tomography and ground penetrating radar?
+
+in this study, we combined ert, gpr, and thaw probing to investigate near-surface permafrost across different land-use settings in utqia?vik, alaska.
+
+i am deeply grateful to my co-authors, collaborators, and mentors for their support throughout fieldwork, analysis, and writing, as well as to the uva environmental institute for supporting this research. i also want to sincerely thank the i?upiat community of utqia?vik. this research was conducted not only on their ancestral lands, but also in collaboration with and for the benefit of the local community, whose knowledge, experience, and support remain essential for arctic research.
+
+there are still many things to work on this summer and in the next academic year, and i am looking forward to continuing this journey, including preparing for a new round of tenure-track applications this fall.
+
+publication link: https://lnkd.in/ektsxw_k
+
+#permafrost #arctic #geophysics #thecryosphere #climateresearch #utqia?vik #earlycareerresearcher">
+<div class="post-photo"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Research</span><time>May 30, 2026</time></div><h2>Reflecting on the 2026 permafrost geophysics publication</h2><p>Sharing the publication of a collaborative paper on near-surface permafrost in Utqiaġvik and thanking coauthors, partners, and mentors.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Now, a few weeks after the academic year has concluded and there is finally some time to reflect on achievements, challenges, and lessons learned, I feel truly grateful for this year.
+
+I am happy to share that I received the Postdoctoral Research Excellence Award from the Environmental Sciences Department for publication for the 2025?2026 academic year. It is very meaningful to me that this was the first year the award was presented.
+
+This recognition is connected to my first first-authored journal article, recently published in The Cryosphere:
+
+?Characterizing near-surface permafrost in Utqia?vik, Alaska, using Electrical Resistivity Tomography and Ground Penetrating Radar?
+
+In this study, we combined ERT, GPR, and thaw probing to investigate near-surface permafrost across different land-use settings in Utqia?vik, Alaska.
+
+I am deeply grateful to my co-authors, collaborators, and mentors for their support throughout fieldwork, analysis, and writing, as well as to the UVA Environmental Institute for supporting this research. I also want to sincerely thank the I?upiat community of Utqia?vik. This research was conducted not only on their ancestral lands, but also in collaboration with and for the benefit of the local community, whose knowledge, experience, and support remain essential for Arctic research.
+
+There are still many things to work on this summer and in the next academic year, and I am looking forward to continuing this journey, including preparing for a new round of tenure-track applications this fall.
+
+Publication link: https://lnkd.in/eKTSXw_K
+
+#Permafrost #Arctic #Geophysics #TheCryosphere #ClimateResearch #Utqia?vik #EarlyCareerResearcher</div></details></div>
+</article><article class="post" data-category="Academic life" data-year="2026" data-search="organizing an interdisciplinary postdoctoral symposium academic life reflecting on collective work to organize a postdoctoral symposium and recognizing contributors at uva and virginia tech. three months, one day, and a team i?ll never forget
+
+it?s still hard to put into words what these past three months of preparing the 2026 postdoctoral research symposium have meant to me.
+
+the first word that comes to mind is gratitude.
+
+gratitude for an incredible team that showed up every single time, ready to take on tasks, support one another, solve problems, and even laugh through the stressful moments. it?s a rare experience when everyone is so engaged that things simply move forward together. i truly felt supported at every step.
+
+i wish i could name every single person who contributed to this event, but the list would be very long. this was a collective effort across the uva postdoc association, uva ogpa postdoc affairs, virginia tech postdoctoral association (vtpa), university of virginia phd plus, and our amazing volunteers.
+
+the second word is opportunity.
+
+as chair of professional development in the pda, i was responsible for leading the symposium organization from the pda side, and i felt both excited and a little terrified stepping into this role.
+
+this experience pushed me to grow in ways i didn?t expect. it gave me the chance to develop skills you don?t always learn from workshops or books, you learn them by doing. i?m grateful for that challenge and for everything it taught me about teamwork, organization, and leadership in organizing a large academic event.
+
+a huge thank you to the entire planning committee and the uva postdoctoral association, as well as to all volunteers, judges, speakers, advisors, moderators, reviewers, presenters, and partners who contributed their time and energy.
+
+i am especially grateful to dr.fatima b. salda?a morales for her guidance, trust, and encouragement to let us as postdocs truly take ownership of this event. many thanks as well to amy garrou and the entire ogpa team for the support behind the scenes that made everything possible.
+
+it was also a pleasure to collaborate with colleagues from virginia tech, including chris smith, ph.d., and the vt postdoctoral association.
+
+on a personal note, i?m thankful that i also got to experience the symposium as a participant, joining speed career advising, updating my professional headshot, and presenting my research as one of the lightning talk finalists. that part reminded me what this event is really about, supporting and celebrating the postdoc community.
+
+#postdoclife #researchcommunity #gratitude #postdocsymposium #uva #academiccommunity #postdoctoralassociation">
+<div class="post-photo"><img loading="lazy" src="assets/field-teaching.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Academic life</span><time>Apr 21, 2026</time></div><h2>Organizing an interdisciplinary postdoctoral symposium</h2><p>Reflecting on collective work to organize a postdoctoral symposium and recognizing contributors at UVA and Virginia Tech.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Three Months, One Day, and a Team I?ll Never Forget
+
+It?s still hard to put into words what these past three months of preparing the 2026 Postdoctoral Research Symposium have meant to me.
+
+The first word that comes to mind is gratitude.
+
+Gratitude for an incredible team that showed up every single time, ready to take on tasks, support one another, solve problems, and even laugh through the stressful moments. It?s a rare experience when everyone is so engaged that things simply move forward together. I truly felt supported at every step.
+
+I wish I could name every single person who contributed to this event, but the list would be very long. This was a collective effort across the UVA Postdoc Association, UVA OGPA Postdoc Affairs, Virginia Tech Postdoctoral Association (VTPA), University of Virginia PhD Plus, and our amazing volunteers.
+
+The second word is opportunity.
+
+As Chair of Professional Development in the PDA, I was responsible for leading the Symposium organization from the PDA side, and I felt both excited and a little terrified stepping into this role.
+
+This experience pushed me to grow in ways I didn?t expect. It gave me the chance to develop skills you don?t always learn from workshops or books, you learn them by doing. I?m grateful for that challenge and for everything it taught me about teamwork, organization, and leadership in organizing a large academic event.
+
+A huge thank you to the entire planning committee and the UVA Postdoctoral Association, as well as to all volunteers, judges, speakers, advisors, moderators, reviewers, presenters, and partners who contributed their time and energy.
+
+I am especially grateful to Dr.Fatima B. Salda?a Morales for her guidance, trust, and encouragement to let us as postdocs truly take ownership of this event. Many thanks as well to Amy Garrou and the entire OGPA team for the support behind the scenes that made everything possible.
+
+It was also a pleasure to collaborate with colleagues from Virginia Tech, including Chris Smith, Ph.D., and the VT Postdoctoral Association.
+
+On a personal note, I?m thankful that I also got to experience the symposium as a participant, joining speed career advising, updating my professional headshot, and presenting my research as one of the lightning talk finalists. That part reminded me what this event is really about, supporting and celebrating the postdoc community.
+
+#PostdocLife #ResearchCommunity #Gratitude #PostdocSymposium #UVA #AcademicCommunity #PostdoctoralAssociation</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="lessons from arctic science summit week 2026 conferences scientific presentations and reflections on indigenous knowledge, arctic collaboration, and snow–permafrost research. a week ago, i returned from arctic science summit week 2026 in aarhus, denmark (25 march ? 1 april 2026).
+
+the conference created space to reflect on how arctic research is evolving. a key takeaway for me is that meaningful work in the north requires more than strong methods and data. it requires time, relationship-building, and working in ways that are relevant and respectful to communities.
+
+as an early career researcher trained in western science, i recognize how different this approach is from how i was used to working. for many years, my work focused on controlled experiments and data analysis, often in isolation. moving toward research that is conducted not only for communities, but with communities, is both essential and challenging. it requires unlearning, listening, and a willingness to approach research differently.
+
+assw has now been, for the second time, an important space for me to learn from indigenous communities and from scientists, both indigenous and non-indigenous, who are already working in collaborative and co-developed ways. many of the questions i brought with me were thoughtfully addressed through the workshops and the work of the indigenous pavilion, which created an important space for dialogue and learning.
+
+i was particularly struck by discussions around:
+? climate change as observed through community knowledge, including indigenous observations from different parts of the arctic  
+? indigenous governance and the role of communities in decision-making  
+? sustainability as a relational practice, not only resource management  
+? trust, reciprocity, and benefit-sharing in research  
+? learning across knowledge systems, including approaches such as ?two-eyed seeing?  
+
+i was also honored to present my work during the science day (cryosphere session), where i gave an oral presentation on urban effects on snow retention and melt in utqia?vik, examining how infrastructure influences snow dynamics and, in turn, permafrost conditions using satellite observations and field data.
+
+i acknowledge that this work takes place on the traditional lands of the i?upiat people of utqia?vik, and i am grateful for the opportunity to learn from and work in their homeland.
+
+this work was supported by the uva environmental institute through the strategic investment fund and the climate collaborative project, as well as an international arctic science committee  travel grant.
+
+i also thank our arctic research center (arc) team, especially my mentors howard e. epstein and matthew g. jull, as well as collaborators and community members in utqia?vik for their time, knowledge, and continued guidance.
+
+i am grateful for the opportunity to learn from colleagues and the knowledge shared throughout the week, and i look forward to continuing this work.
+
+#arcticresearch #permafrost #cryosphere #indigenousknowledge #remotesensing #assw2026 #iasc">
+<div class="post-photo"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>Apr 14, 2026</time></div><h2>Lessons from Arctic Science Summit Week 2026</h2><p>Scientific presentations and reflections on Indigenous knowledge, Arctic collaboration, and snow–permafrost research.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">A week ago, I returned from Arctic Science Summit Week 2026 in Aarhus, Denmark (25 March ? 1 April 2026).
+
+The conference created space to reflect on how Arctic research is evolving. A key takeaway for me is that meaningful work in the North requires more than strong methods and data. It requires time, relationship-building, and working in ways that are relevant and respectful to communities.
+
+As an early career researcher trained in Western science, I recognize how different this approach is from how I was used to working. For many years, my work focused on controlled experiments and data analysis, often in isolation. Moving toward research that is conducted not only for communities, but with communities, is both essential and challenging. It requires unlearning, listening, and a willingness to approach research differently.
+
+ASSW has now been, for the second time, an important space for me to learn from Indigenous communities and from scientists, both Indigenous and non-Indigenous, who are already working in collaborative and co-developed ways. Many of the questions I brought with me were thoughtfully addressed through the workshops and the work of the Indigenous Pavilion, which created an important space for dialogue and learning.
+
+I was particularly struck by discussions around:
+? climate change as observed through community knowledge, including Indigenous observations from different parts of the Arctic  
+? Indigenous governance and the role of communities in decision-making  
+? sustainability as a relational practice, not only resource management  
+? trust, reciprocity, and benefit-sharing in research  
+? learning across knowledge systems, including approaches such as ?two-eyed seeing?  
+
+I was also honored to present my work during the Science Day (Cryosphere Session), where I gave an oral presentation on urban effects on snow retention and melt in Utqia?vik, examining how infrastructure influences snow dynamics and, in turn, permafrost conditions using satellite observations and field data.
+
+I acknowledge that this work takes place on the traditional lands of the I?upiat people of Utqia?vik, and I am grateful for the opportunity to learn from and work in their homeland.
+
+This work was supported by the UVA Environmental Institute through the Strategic Investment Fund and the Climate Collaborative Project, as well as an International Arctic Science Committee  travel grant.
+
+I also thank our Arctic Research Center (ARC) team, especially my mentors Howard E. Epstein and Matthew G. Jull, as well as collaborators and community members in Utqia?vik for their time, knowledge, and continued guidance.
+
+I am grateful for the opportunity to learn from colleagues and the knowledge shared throughout the week, and I look forward to continuing this work.
+
+#ArcticResearch #Permafrost #Cryosphere #IndigenousKnowledge #RemoteSensing #ASSW2026 #IASC</div></details></div>
+</article><article class="post" data-category="Academic life" data-year="2026" data-search="national postdoctoral association meeting in san francisco academic life professional development, career conversations, and collegial exchanges with uva’s postdoctoral community. last week in san francisco (march 13?14, 2026), i had the opportunity to attend the national postdoctoral association annual conference wearing several hats: chair of the professional development committee, a member of the community building committee of the uva postdoctoral association, one of the organizers of the upcoming uva postdoctoral symposium (april 17, in collaboration with vt), and simply a postdoc searching for answers.
+it was a busy and inspiring few days, filled with conversations, new ideas, and reflections on what it really means to support postdocs and how to grow into a better future mentor in academia.
+what stood out most was how many shared challenges we face across institutions, and how much we can learn from each other. from leadership and mentoring to teaching, career pathways, and postdoc well-being, the sessions offered both big-picture perspectives and practical tools i can bring back to our postdoc community. i especially appreciated insights from sessions led by ioannis vasileios chemos, jovana (pronounced yoh-vah-na) milosavljevic-ardeljan, ph.d., randall ribaudo, and bill mahoney.
+and, of course, the posters and informal conversations were just as inspiring, reminding me how much innovation and dedication exist across the postdoc community.
+grateful to uva ogpa postdoc affairs for the support to attend and to the national postdoctoral association for organizing such a valuable event. it was also especially meaningful to attend alongside a strong group of uva pda (konika konika, phd, cody wolf ph.d., maria lungu, hania taha, phd, rd, ldn, yiwei wang) and ogpa (fatima b. salda?a morales) colleagues, representing our postdoctoral community together.
+looking forward to turning obtained new ideas into action.
+#npa2026ac #uva #careerdevelopment #academiccommunity">
+<div class="post-photo"><img loading="lazy" src="assets/field-teaching.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Academic life</span><time>Mar 19, 2026</time></div><h2>National Postdoctoral Association meeting in San Francisco</h2><p>Professional development, career conversations, and collegial exchanges with UVA’s postdoctoral community.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Last week in San Francisco (March 13?14, 2026), I had the opportunity to attend the National Postdoctoral Association Annual Conference wearing several hats: Chair of the Professional Development Committee, a member of the Community Building Committee of the UVA Postdoctoral Association, one of the organizers of the upcoming UVA Postdoctoral Symposium (April 17, in collaboration with VT), and simply a postdoc searching for answers.
+It was a busy and inspiring few days, filled with conversations, new ideas, and reflections on what it really means to support postdocs and how to grow into a better future mentor in academia.
+What stood out most was how many shared challenges we face across institutions, and how much we can learn from each other. From leadership and mentoring to teaching, career pathways, and postdoc well-being, the sessions offered both big-picture perspectives and practical tools I can bring back to our Postdoc community. I especially appreciated insights from sessions led by Ioannis Vasileios Chemos, Jovana (pronounced Yoh-vah-na) Milosavljevic-Ardeljan, Ph.D., Randall Ribaudo, and Bill Mahoney.
+And, of course, the posters and informal conversations were just as inspiring, reminding me how much innovation and dedication exist across the postdoc community.
+Grateful to UVA OGPA Postdoc Affairs for the support to attend and to the National Postdoctoral Association for organizing such a valuable event. It was also especially meaningful to attend alongside a strong group of UVA PDA (Konika Konika, PhD, Cody Wolf Ph.D., Maria Lungu, Hania Taha, PhD, RD, LDN, Yiwei Wang) and OGPA (Fatima B. Salda?a Morales) colleagues, representing our postdoctoral community together.
+Looking forward to turning obtained new ideas into action.
+#NPA2026AC #UVA #CareerDevelopment #AcademicCommunity</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2025" data-search="support for participating in agu 2025 conferences acknowledging early-career travel support and presenting work on snow cover and lagoon water quality. i am happy to share that i was awarded support to attend agu 2025 from two programs:
+- the agu cryosphere section travel support (cryostud award), which supports students and early career researchers from traditionally marginalized groups and those working to broaden participation in cryosphere science.
+- the permafrost engineering education program (peep) award from the u.s. permafrost association, which promotes education and professional development in permafrost science and engineering.
+this support granted my attending agu 2025 and made it possible for me to present results from our interdisciplinary collaborative project in utqia?vik, alaska, where field work is logistically complex and very expensive. funding opportunities like these are vital for early career researchers who rely on both field-based observations and community engagement to inform arctic science.
+at agu 2025 this friday i will present:
+poster: evaluating snow cover dynamics using satellite imagery in utqia?vik, alaska (c51d)
+oral talk: hydrological variability in permafrost-affected arctic lakes and lagoons across an infrastructure gradient in utqia?vik, alaska (h51f)
+i am grateful to these programs for supporting my participation, and to my mentors, collaborators, and the i?upiat community of utqia?vik for making this work possible.
+if you are attending agu and would like to connect or discuss our work, i would be glad to meet.">
+<div class="post-photo"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>Dec 15, 2025</time></div><h2>Support for participating in AGU 2025</h2><p>Acknowledging early-career travel support and presenting work on snow cover and lagoon water quality.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">I am happy to share that I was awarded support to attend AGU 2025 from two programs:
+- The AGU Cryosphere Section Travel Support (CryoStuD Award), which supports students and early career researchers from traditionally marginalized groups and those working to broaden participation in cryosphere science.
+- The Permafrost Engineering Education Program (PEEP) Award from the U.S. Permafrost Association, which promotes education and professional development in permafrost science and engineering.
+This support granted my attending AGU 2025 and made it possible for me to present results from our interdisciplinary collaborative project in Utqia?vik, Alaska, where field work is logistically complex and very expensive. Funding opportunities like these are vital for early career researchers who rely on both field-based observations and community engagement to inform Arctic science.
+At AGU 2025 this Friday I will present:
+Poster: Evaluating Snow Cover Dynamics Using Satellite Imagery in Utqia?vik, Alaska (C51D)
+Oral talk: Hydrological Variability in Permafrost-Affected Arctic Lakes and Lagoons Across an Infrastructure Gradient in Utqia?vik, Alaska (H51F)
+I am grateful to these programs for supporting my participation, and to my mentors, collaborators, and the I?upiat community of Utqia?vik for making this work possible.
+If you are attending AGU and would like to connect or discuss our work, I would be glad to meet.</div></details></div>
+</article><article class="post" data-category="Fieldwork &amp; communities" data-year="2025" data-search="autumn lake sampling through early ice fieldwork &amp; communities sampling with mackenzie nelson and a local bear guard, supported by uic science and a wider interdisciplinary research team. ? when the ice fights back: hammering our way to fall hydrology data in utqia?vik
+
+from 30 september to 7 october, we were back in utqia?vik, alaska, to see how early ice and local infrastructure shape arctic lakes and lagoons in the fall. the arctic raised the stakes this year: about 3 inches of solid ice at imikpuk lake, middle salt lagoon, and isatkoak lagoon, much earlier than last october.
+the method stayed the same, even if the work did not. with a ysi exo1 multiparameter sonde, we measured temperature, conductivity, dissolved oxygen, ph, turbidity, algal biomass, and fdom along shorelines near roads, buildings, and more tundra-dominated stretches. reaching the water meant using a hammer and ice breaker at every site, with huge support from our bear guard emi, who both watched out for a recently visiting bear and broke through the thick, echoing ice so we could sample. the sonde tried to freeze between casts, so we kept it in a warm, insulated cover like a little field baby.
+these fall data, paired with our summer measurements over two years, will be presented at agu 2025: ?hydrological variability in permafrost-affected arctic lakes and lagoons across an infrastructure gradient in utqia?vik, alaska.? h51f session, oral presentation, new orleans convention center, room 217?219, on friday, 19 december 2025, 08:33?08:43.
+if you are planning to attend agu 2025, i will be happy to see you there and have a discussion.
+i acknowledge that this work takes place on the traditional lands of the i?upiat people of utqia?vik, and i am grateful for the opportunity to learn from and work in their homeland. this work was produced with support from the uva environmental institute through the strategic investment fund and through the climate collaborative project. i also thank uic science for their technical support, which made our fieldwork safer and more comfortable, phd candidate mackenzie nelson for conducting all measurements together in challenging conditions, and my mentors (howie epstein, matthew jull) and collaborators for their ongoing guidance.
+#arctic #utqiagvik #permafrost #arctichydrology #infrastructureimpact #fieldwork #earlyice #waterquality #agu25 #environmentalinstitute #thawingground">
+<div class="post-photo"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Fieldwork &amp; communities</span><time>Nov 13, 2025</time></div><h2>Autumn lake sampling through early ice</h2><p>Sampling with MacKenzie Nelson and a local bear guard, supported by UIC Science and a wider interdisciplinary research team.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">? When the Ice Fights Back: Hammering Our Way to Fall Hydrology Data in Utqia?vik
+
+From 30 September to 7 October, we were back in Utqia?vik, Alaska, to see how early ice and local infrastructure shape Arctic lakes and lagoons in the fall. The Arctic raised the stakes this year: about 3 inches of solid ice at Imikpuk Lake, Middle Salt Lagoon, and Isatkoak Lagoon, much earlier than last October.
+The method stayed the same, even if the work did not. With a YSI EXO1 Multiparameter Sonde, we measured temperature, conductivity, dissolved oxygen, pH, turbidity, algal biomass, and fDOM along shorelines near roads, buildings, and more tundra-dominated stretches. Reaching the water meant using a hammer and ice breaker at every site, with huge support from our bear guard Emi, who both watched out for a recently visiting bear and broke through the thick, echoing ice so we could sample. The sonde tried to freeze between casts, so we kept it in a warm, insulated cover like a little field baby.
+These fall data, paired with our summer measurements over two years, will be presented at AGU 2025: ?Hydrological Variability in Permafrost-Affected Arctic Lakes and Lagoons Across an Infrastructure Gradient in Utqia?vik, Alaska.? H51F session, oral presentation, New Orleans Convention Center, Room 217?219, on Friday, 19 December 2025, 08:33?08:43.
+If you are planning to attend AGU 2025, I will be happy to see you there and have a discussion.
+I acknowledge that this work takes place on the traditional lands of the I?upiat people of Utqia?vik, and I am grateful for the opportunity to learn from and work in their homeland. This work was produced with support from the UVA Environmental Institute through the Strategic Investment Fund and through the Climate Collaborative Project. I also thank UIC Science for their technical support, which made our fieldwork safer and more comfortable, PhD candidate MacKenzie Nelson for conducting all measurements together in challenging conditions, and my mentors (Howie Epstein, Matthew Jull) and collaborators for their ongoing guidance.
+#Arctic #Utqiagvik #Permafrost #ArcticHydrology #InfrastructureImpact #Fieldwork #EarlyIce #WaterQuality #AGU25 #EnvironmentalInstitute #ThawingGround</div></details></div>
+</article><article class="post" data-category="Professional development" data-year="2025" data-search="the cyber2a arctic ai workshop professional development reflections on reproducible analysis, geospatial methods, and teaching data science in arctic research. excited to share that i recently participated in the cyber2a arctic ai workshop in santa barbara, ca (october 20?25, 2025), a 5-day event hosted by nceas in partnership with ncsa, asu, ucsb, woodwell, and uiic as part of the nsf cyber2a training program. the workshop is designed to empower arctic scientists to integrate ai into their work in a thoughtful and accessible way.
+
+during the week, i gave a lightning talk on how i apply ai methods in arctic research, particularly for permafrost and snow dynamics. it was an inspiring chance to exchange ideas with scientists from different disciplines and career stages about how ai can support reproducible data analysis, complex satellite-based assessments, and modeling of arctic environmental processes.
+
+one of the most rewarding parts was our discussions on how to teach ai technologies to students in earth and environmental sciences, especially for those with limited coding or computing background. bridging the gap between data science and arctic environmental science feels more important than ever.
+
+i am very grateful to the organizers for the opportunity to participate through financial support and for creating such a supportive and collaborative learning space.
+
+main takeaway: we need to build a community that combines deep arctic expertise with modern ai tools, so that innovative, reliable, and open arctic science becomes the norm.
+
+#arcticresearch #ai #cyber2a #permafrost #arcticscience #datadrivendiscovery #nsf #aiforscience">
+<div class="post-photo"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Professional development</span><time>Nov 7, 2025</time></div><h2>The Cyber2A Arctic AI workshop</h2><p>Reflections on reproducible analysis, geospatial methods, and teaching data science in Arctic research.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Excited to share that I recently participated in the Cyber2A Arctic AI Workshop in Santa Barbara, CA (October 20?25, 2025), a 5-day event hosted by NCEAS in partnership with NCSA, ASU, UCSB, Woodwell, and UIIC as part of the NSF Cyber2A training program. The workshop is designed to empower Arctic scientists to integrate AI into their work in a thoughtful and accessible way.
+
+During the week, I gave a lightning talk on how I apply AI methods in Arctic research, particularly for permafrost and snow dynamics. It was an inspiring chance to exchange ideas with scientists from different disciplines and career stages about how AI can support reproducible data analysis, complex satellite-based assessments, and modeling of Arctic environmental processes.
+
+One of the most rewarding parts was our discussions on how to teach AI technologies to students in Earth and environmental sciences, especially for those with limited coding or computing background. Bridging the gap between data science and Arctic environmental science feels more important than ever.
+
+I am very grateful to the organizers for the opportunity to participate through financial support and for creating such a supportive and collaborative learning space.
+
+Main takeaway: we need to build a community that combines deep Arctic expertise with modern AI tools, so that innovative, reliable, and open Arctic science becomes the norm.
+
+#ArcticResearch #AI #Cyber2A #Permafrost #ArcticScience #DataDrivenDiscovery #NSF #AIForScience</div></details></div>
+</article><article class="post" data-category="Research" data-year="2025" data-search="sharing arctic science at the uva seminar research presenting geophysics, permafrost, and snow observations and acknowledging the interdisciplinary research team and local partners. sharing research at the uva environmental sciences seminar
+
+this week i presented ?life on thawing ground: permafrost risk seen from field and space? at the uva department of environmental sciences seminar, highlighting how climate and infrastructure shape permafrost stability in utqia?vik, alaska.
+
+together with the audience, we looked:
+	?	from above: satellite imagery and ground truth show that snow cover, depth, and albedo track infrastructure density, with faster melt in urban areas than on open tundra.
+	?	below ground: geophysics (ert, gpr) reveal uneven thaw across roads, buildings, and tundra, deepening where snow redistribution and drainage are altered.
+	?	beneath residences: geophysics plus micrometeorological data (temperature, moisture) indicate that shading and reduced snow under pile-supported buildings can stabilize permafrost.
+
+this work supports practical indicators for early warning and adaptation in rapidly changing arctic landscapes.
+
+grateful to howard epstein ? my mentor ? our interdisciplinary team, and department for the invitation and thoughtful discussion. thanks to the uva environmental institute for financial and professional support. i also acknowledge and thank the i?upiat community in utqia?vik, on whose homelands this research is conducted, for their knowledge and collaboration.
+
+this seminar was also a helpful step as i continue preparing for future faculty interviews.
+
+#arcticresearch #permafrost #remotesensing #geophysics #climate #uva #environmentalinstituteuva #nsf #indigenouscollaboration #communityengagement">
+<div class="post-photo"><img loading="lazy" src="assets/arctic-elevated-building.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Research</span><time>Nov 1, 2025</time></div><h2>Sharing Arctic science at the UVA seminar</h2><p>Presenting geophysics, permafrost, and snow observations and acknowledging the interdisciplinary research team and local partners.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">View LinkedIn activity ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">Sharing Research at the UVA Environmental Sciences Seminar
+
+This week I presented ?Life on Thawing Ground: Permafrost Risk Seen from Field and Space? at the UVA Department of Environmental Sciences seminar, highlighting how climate and infrastructure shape permafrost stability in Utqia?vik, Alaska.
+
+Together with the audience, we looked:
+	?	From above: satellite imagery and ground truth show that snow cover, depth, and albedo track infrastructure density, with faster melt in urban areas than on open tundra.
+	?	Below ground: geophysics (ERT, GPR) reveal uneven thaw across roads, buildings, and tundra, deepening where snow redistribution and drainage are altered.
+	?	Beneath residences: geophysics plus micrometeorological data (temperature, moisture) indicate that shading and reduced snow under pile-supported buildings can stabilize permafrost.
+
+This work supports practical indicators for early warning and adaptation in rapidly changing Arctic landscapes.
+
+Grateful to Howard Epstein ? my mentor ? our interdisciplinary team, and department for the invitation and thoughtful discussion. Thanks to the UVA Environmental Institute for financial and professional support. I also acknowledge and thank the I?upiat community in Utqia?vik, on whose homelands this research is conducted, for their knowledge and collaboration.
+
+This seminar was also a helpful step as I continue preparing for future faculty interviews.
+
+#ArcticResearch #Permafrost #RemoteSensing #Geophysics #Climate #UVA #EnvironmentalInstituteUVA #NSF #IndigenousCollaboration #CommunityEngagement</div></details></div>
+</article><article class="post" data-category="Research" data-year="2025" data-search="from laboratory gas hydrates to arctic field science research recognizing the mentors and laboratory collaborators who contributed to more than a decade of experimental frozen-sediment research. ? from lab to field: my journey with gas hydrates
+before my current arctic fieldwork, i spent 10+ years in the lab studying gas hydrates?ice-like crystals that can both threaten the environment and serve as a potential energy source. 1 m? of hydrate can hold up to ~160 m? of methane, so stability matters.
+my research focused on:
+ ? destabilization by salt migration, including metastable (self-preserved) hydrates that are extremely sensitive to changing conditions. salt can migrate from cryopegs, waste storage, or salt-rich drilling fluids in permafrost, and even small warming can accelerate breakdown.
+ ? a ?methane-out / co?-in? concept: extracting methane while sequestering co? by injecting flue gas (co?+n?) into hydrate-bearing frozen sediments?partly in collaboration with heriot-watt university.
+in this amazing gas hydrate journey i?m grateful to moscow state university (geocryology department) and skolkovo institute of science and technology (center for petroleum science and engineering) for enabling this work, and to my mentors/colleagues?dr. evgeny chuvilin (??????? ???????), dr. boris bukhanov) ? for their guidance and support; dr. maksim zhmaev, dr. sergei grebenkin, dr. dinara davletshina, ekaterina krivokhat, vladimir shilenkov, and gleb berloff - for their invaluable experimental assistance and moral support.
+? this research resulted in 8 peer-reviewed publications.
+ ? the photo shows burning gas hydrate in our lab (photo credit dinara davletshina).
+these experiences not only advanced my understanding of hydrate science but also gave me the chance to share the fascination (and importance) of gas hydrates more broadly?linking laboratory discoveries to education, outreach, and now to my current arctic fieldwork. i hope to bring both parts of my research together in the future, connecting permafrost dynamics and gas hydrates.
+#gashydrates #permafrost #arctic #energytransition #carbonsequestration #geoscience">
+<div class="post-photo"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Research</span><time>Sep 25, 2025</time></div><h2>From laboratory gas hydrates to Arctic field science</h2><p>Recognizing the mentors and laboratory collaborators who contributed to more than a decade of experimental frozen-sediment research.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div><details class="post-full"><summary>Read post text from archive</summary><div class="original-body">? From Lab to Field: My Journey with Gas Hydrates
+Before my current Arctic fieldwork, I spent 10+ years in the lab studying gas hydrates?ice-like crystals that can both threaten the environment and serve as a potential energy source. 1 m? of hydrate can hold up to ~160 m? of methane, so stability matters.
+My research focused on:
+ ? Destabilization by salt migration, including metastable (self-preserved) hydrates that are extremely sensitive to changing conditions. Salt can migrate from cryopegs, waste storage, or salt-rich drilling fluids in permafrost, and even small warming can accelerate breakdown.
+ ? A ?methane-out / CO?-in? concept: extracting methane while sequestering CO? by injecting flue gas (CO?+N?) into hydrate-bearing frozen sediments?partly in collaboration with Heriot-Watt University.
+In this amazing gas hydrate journey I?m grateful to Moscow State University (Geocryology Department) and Skolkovo Institute of Science and Technology (Center for Petroleum Science and Engineering) for enabling this work, and to my mentors/colleagues?Dr. Evgeny Chuvilin (??????? ???????), Dr. Boris Bukhanov) ? for their guidance and support; Dr. Maksim Zhmaev, Dr. Sergei Grebenkin, Dr. Dinara Davletshina, Ekaterina Krivokhat, Vladimir Shilenkov, and Gleb Berloff - for their invaluable experimental assistance and moral support.
+? This research resulted in 8 peer-reviewed publications.
+ ? The photo shows burning gas hydrate in our lab (photo credit Dinara Davletshina).
+These experiences not only advanced my understanding of hydrate science but also gave me the chance to share the fascination (and importance) of gas hydrates more broadly?linking laboratory discoveries to education, outreach, and now to my current Arctic fieldwork. I hope to bring both parts of my research together in the future, connecting permafrost dynamics and gas hydrates.
+#GasHydrates #Permafrost #Arctic #EnergyTransition #CarbonSequestration #Geoscience</div></details></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="inviting researchers to two agu 2026 sessions conferences an invitation to sessions on permafrost observation and hydrological and biogeochemical processes. ">
+<div class="post-photo"><img loading="lazy" src="assets/snow-monitoring.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>2026</time></div><h2>Inviting researchers to two AGU 2026 sessions</h2><p>An invitation to sessions on permafrost observation and hydrological and biogeochemical processes.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="hydrological and biogeochemical processes in permafrost landscapes conferences a conference session focused on arctic hydrology, thermokarst, and biogeochemical change. ">
+<div class="post-photo"><img loading="lazy" src="assets/lagoon-measurements.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>2026</time></div><h2>Hydrological and biogeochemical processes in permafrost landscapes</h2><p>A conference session focused on Arctic hydrology, thermokarst, and biogeochemical change.</p><div class="post-actions"><a href="https://www.linkedin.com/in/valentina-ekimova-0524a8123/" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div></div>
+</article><article class="post" data-category="Conferences" data-year="2026" data-search="permafrost monitoring and diverse knowledge systems conferences a session invitation for researchers, local observers, and indigenous knowledge holders. ">
+<div class="post-photo"><img loading="lazy" src="assets/permafrost-exposure.webp" alt="Illustrative photograph from the Arctic fieldwork gallery"></div>
+<div class="post-content"><div class="post-meta"><span>Conferences</span><time>2026</time></div><h2>Permafrost monitoring and diverse knowledge systems</h2><p>A session invitation for researchers, local observers, and Indigenous knowledge holders.</p><div class="post-actions"><a href="https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD" rel="noopener noreferrer" target="_blank">Original LinkedIn post ↗</a></div></div>
+</article></div><p class="empty" id="empty" hidden>No posts match these filters.</p><p class="archive-note"><strong>Photo and archive notes.</strong> The card images are photographs from my Arctic fieldwork gallery and illustrate each theme; they are not necessarily the images attached to the LinkedIn publication. The text inside expanded entries is reproduced from LinkedIn's Rich Media export, which sometimes replaces accented characters and punctuation with question marks. Not every historical post, repost status, or original permalink can be recovered from that file alone. The archive will be reconciled with the separate Shares export. Published work and community partnerships should be attributed according to their respective project records.</p></div></section></main><footer><div class="container"><span>Valentina Ekimova, PhD · Arctic permafrost & environmental science</span><a href="index.html">Back to home ↑</a></div></footer>
+<script>(function(){let q=document.getElementById('search'),cat=document.getElementById('category'),year=document.getElementById('year'),cards=[...document.querySelectorAll('.post')],count=document.getElementById('count'),empty=document.getElementById('empty');function update(){let v=q.value.toLocaleLowerCase().trim(),c=cat.value,y=year.value,n=0;cards.forEach(p=>{let show=(!v||p.dataset.search.includes(v))&&(c==='all'||p.dataset.category===c)&&(y==='all'||p.dataset.year===y);p.hidden=!show;if(show)n++;});count.textContent=n+' of '+cards.length+' entries';empty.hidden=n!==0;}q.addEventListener('input',update);cat.addEventListener('change',update);year.addEventListener('change',update)})()</script></body></html>

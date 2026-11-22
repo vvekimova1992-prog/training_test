@@ -30,7 +30,10 @@ The website includes a curated set of links to public LinkedIn posts on teaching
 
 ## LinkedIn writing archive
 
-[Writing & Updates](posts.html) is a searchable archive of original LinkedIn posts identified from publicly accessible sources. Reposts are excluded. [POSTS.md](POSTS.md) offers a Markdown version for GitHub preview. The collection may be incomplete until the author's complete post history is available.
+[Writing & Updates](posts.html) is a searchable archive incorporating 22 original text-bearing entries from the October 2026 LinkedIn Rich Media export, plus three previously curated entries not present in that file. Reposts are not deliberately included. [POSTS.md](POSTS.md) provides a Markdown overview.
+
+The Rich Media export is incomplete as a post-level record: it does not include stable individual post URLs for most entries, and some media rows contain no text. The site's expanded full-text entries preserve the export wording, including occasional character corruption in the original CSV. Post links and repost status will be reconciled against a separate Shares export when available. Images on cards are illustrative photographs from the author's existing fieldwork gallery, not necessarily images uploaded to LinkedIn.
+
 
 ## In-depth academic pages
 

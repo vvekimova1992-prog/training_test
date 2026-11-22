@@ -1,102 +1,157 @@
 # Writing & Updates
 
-An evolving archive of my original LinkedIn posts, excluding reposts. This list contains the posts located in publicly available sources so far; it may not cover the complete history.
+Original LinkedIn posts identified from the October 2026 Rich Media export. **Not a complete account-wide post history.** Reposts and media-only records without post text have not been included.
 
-## What I learned while building an independent research career (2026)
+## When Arctic science becomes music (2026-10-19)
 
-![Valentina seated on a frost-heave feature in Arctic tundra.](assets/portrait-frost-heave.webp)
+A performance of Auksalaq at UVA prompted reflections on communicating Arctic environmental change through art and research.
 
-Reflecting on research milestones, learning new methods, mentorship, rejection, and continuing to pursue an academic career.
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q)
+## Autumn lagoon fieldwork with Iḷisaġvik College students (2026-10-03)
 
-## Completing the ACS Reviewer Lab (2026)
+Field measurements with Adele Thomas, Jasmine Biswokarma, and Violet Anniskett; a chemistry class visit, instrumentation, and conversations with BUECI.
 
-![Field teaching in an Arctic winter landscape.](assets/field-teaching.webp)
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-Continuing professional development in thoughtful, constructive, and responsible peer review.
+## Alaska field observations, from thermokarst to ice wedges (2026-09-30)
 
-[Visit my LinkedIn profile to locate this post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+Highlights from Arctic field travel and firsthand encounters with permafrost landforms and northern landscapes.
 
-## A detour through the history of permafrost and northern infrastructure (2026)
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-![Elevated building in Arctic Alaska.](assets/arctic-elevated-building.webp)
+## Learning about discontinuous permafrost in Fairbanks (2026-09-20)
 
-Historical perspectives on frozen ground, early scientific observations, and how northern infrastructure and permafrost influence one another.
+Alexander Kholodov demonstrated how vegetation and shallow ground temperature can vary across nearby locations; a visit organized with Arctic architecture colleagues.
 
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa)
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-## Why teaching does not always happen in a classroom (2026)
+## Navigating the New Arctic community meeting in Fairbanks (2026-09-18)
 
-![Valentina standing in shallow Arctic tundra water.](assets/wetland-fieldwork.webp)
+Sharing infrastructure and permafrost research, learning from Arctic Elders and community members, and joining an interdisciplinary research trip.
 
-Reflections on Tomorrow's Professors Today at UVA, learning through field instruction, and the relationship between teaching and scientific practice.
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW)
+## What being a UVA Climate Fellow has meant (2026-09-18)
 
-## Explaining Arctic snow and permafrost in a lightning talk (2026)
+Reflecting on mentorship, interdisciplinary collaboration, a showcase presentation award, and the support behind Arctic research.
 
-![Snow observations and instruments on the Arctic tundra.](assets/snow-monitoring.webp)
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-Sharing a short presentation from the UVA Postdoctoral Research Symposium about snow redistribution, landscape evolution, and infrastructure resilience.
+## Presenting at the NNA 2026 annual meeting (2026-09-15)
 
-[Visit my LinkedIn profile to locate this post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+Inviting researchers and community members to discussions about infrastructure, snow, water, and permafrost change.
 
-## Inviting research across two AGU 2026 sessions (2026)
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-![Water-quality observations at an Arctic lagoon.](assets/lagoon-measurements.webp)
+## The journey toward an independent research career (2026-08-21)
 
-Connecting researchers studying permafrost observation, hydrological and biogeochemical processes, and diverse knowledge systems.
+A personal reflection on learning new research skills, professional growth, and pursuing a faculty career.
 
-[Visit my LinkedIn profile to locate this post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_opentowork-activity-7497733226724179968-UD2Q)
 
-## Geophysical conversations at ACOP 2026 in Mongolia (2026)
+## Completing the ACS Reviewer Lab (2026-08-21)
 
-![Arctic tundra frost-heave landform.](assets/frost-heave-context.webp)
+Developing skills in responsible and constructive manuscript peer review.
 
-Presenting ERT and GPR research on near-surface permafrost in Utqiaġvik and reflecting on international collaborations at the Asian Conference on Permafrost.
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-[Visit my LinkedIn profile to locate this post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+## Reading the history of frozen-ground research (2026-08-20)
+
+A historical exploration of early descriptions of permafrost, the Shergin Shaft, and infrastructure in cold regions.
+
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arcticresearch-geocryology-activity-7496300984571379713-JqAa)
+
+## Teaching does not always happen in a classroom (2026-08-06)
+
+Reflecting on the UVA Tomorrow’s Professors Today program and the relationships between mentoring, teaching, and field observations.
+
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_teaching-doesnt-always-happen-in-a-classroom-activity-7493071263696023553-2DmW)
+
+## Reflections from ACOP 2026 in Mongolia (2026-07-30)
+
+Research presentations and scientific exchanges at the Asian Conference on Permafrost in Ulaanbaatar.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Arctic ACTION and partner meetings in Utqiaġvik (2026-06-05)
+
+Fieldwork and conversations with TNHA, BUECI, and Iḷisaġvik College, combined with Arctic ACTION activities and a visit to the permafrost tunnel.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Reflecting on the 2026 permafrost geophysics publication (2026-05-30)
+
+Sharing the publication of a collaborative paper on near-surface permafrost in Utqiaġvik and thanking coauthors, partners, and mentors.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Organizing an interdisciplinary postdoctoral symposium (2026-04-21)
+
+Reflecting on collective work to organize a postdoctoral symposium and recognizing contributors at UVA and Virginia Tech.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Lessons from Arctic Science Summit Week 2026 (2026-04-14)
+
+Scientific presentations and reflections on Indigenous knowledge, Arctic collaboration, and snow–permafrost research.
+
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9)
+
+## National Postdoctoral Association meeting in San Francisco (2026-03-19)
+
+Professional development, career conversations, and collegial exchanges with UVA’s postdoctoral community.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Support for participating in AGU 2025 (2025-12-15)
+
+Acknowledging early-career travel support and presenting work on snow cover and lagoon water quality.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## Autumn lake sampling through early ice (2025-11-13)
+
+Sampling with MacKenzie Nelson and a local bear guard, supported by UIC Science and a wider interdisciplinary research team.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## The Cyber2A Arctic AI workshop (2025-11-07)
+
+Reflections on reproducible analysis, geospatial methods, and teaching data science in Arctic research.
+
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky)
+
+## Sharing Arctic science at the UVA seminar (2025-11-01)
+
+Presenting geophysics, permafrost, and snow observations and acknowledging the interdisciplinary research team and local partners.
+
+[View LinkedIn profile](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+
+## From laboratory gas hydrates to Arctic field science (2025-09-25)
+
+Recognizing the mentors and laboratory collaborators who contributed to more than a decade of experimental frozen-sediment research.
+
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD)
+
+## Inviting researchers to two AGU 2026 sessions (2026)
+
+An invitation to sessions on permafrost observation and hydrological and biogeochemical processes.
+
+[Original LinkedIn post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
 ## Hydrological and biogeochemical processes in permafrost landscapes (2026)
 
-![Sonde measurements at a lagoon in Arctic Alaska.](assets/lagoon-measurements.webp)
+A conference session focused on Arctic hydrology, thermokarst, and biogeochemical change.
 
-Announcing AGU session H081, covering thaw, thermokarst, Arctic waters, biogeochemistry, and ecosystem change.
+[Original LinkedIn post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
 
-[Visit my LinkedIn profile to locate this post](https://www.linkedin.com/in/valentina-ekimova-0524a8123/)
+## Permafrost monitoring and diverse knowledge systems (2026)
 
-## Permafrost observation across diverse knowledge systems (2026)
+A session invitation for researchers, local observers, and Indigenous knowledge holders.
 
-![Exposed permafrost and tundra soil profile.](assets/permafrost-exposure.webp)
+[Original LinkedIn post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD)
 
-Introducing AGU session C029 with opportunities for field scientists, modelers, community observers, and Indigenous knowledge holders.
+---
 
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-observation-and-monitoring-across-activity-7473094260775583744-G7bD)
-
-## Lessons from Arctic Science Summit Week 2026 (2026)
-
-![Students and researchers observing Arctic ground conditions together.](assets/field-teaching.webp)
-
-Reflections on building relationships, listening, reciprocal research, and working with Arctic communities, alongside a presentation on snow dynamics.
-
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-permafrost-cryosphere-activity-7449658843644547072-E_X9)
-
-## Arctic AI and reproducible research at Cyber2A (2025)
-
-![Scientific instruments and snow field observations in Arctic Alaska.](assets/snow-monitoring.webp)
-
-A workshop on accessible, reproducible, data-driven methods for permafrost, snow, environmental imagery, and interdisciplinary Arctic science.
-
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_arcticresearch-ai-cyber2a-activity-7392656816188448768-Ktky)
-
-## From laboratory gas hydrates to Arctic field science (2025)
-
-![Permafrost and sediments exposed at the tundra surface.](assets/permafrost-exposure.webp)
-
-Connecting experimental work on salt migration and hydrate destabilization with today's field investigations of changing frozen ground.
-
-[Read original post](https://www.linkedin.com/posts/valentina-ekimova-0524a8123_permafrost-arctic-methanehydrates-activity-7387518387955916801-S4tD)
-
-
-The photographs in this GitHub archive illustrate the topics and are not necessarily the images shared in the original LinkedIn posts.
+Card images are illustrative fieldwork photographs and may differ from original post media. This list is provisional until the LinkedIn Shares export can be reconciled.
