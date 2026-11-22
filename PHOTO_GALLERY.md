@@ -8,7 +8,7 @@ Photographs from Valentina Ekimova's research and field activities in Utqiaġvik
 
 ![Snow measurements near a field instrument in snow-covered tundra](assets/snow-monitoring.webp)
 
-Winter field monitoring and snow observations in Arctic tundra.
+Winter field monitoring and snow observations in Arctic tundra. Photo: Cheri Johnson (as credited in the February 2026 research presentation).
 
 ### Lagoon measurements
 
@@ -48,13 +48,13 @@ Ground exposure illustrating surface erosion and frozen-ground processes.
 
 ![Blue building elevated above ground](assets/arctic-elevated-building.webp)
 
-Infrastructure elevated above the ground in Utqiaġvik.
+Infrastructure elevated above the ground in Utqiaġvik. Photo: MacKenzie Nelson (as credited in the February 2026 research presentation).
 
 ### Teaching in the field
 
 ![Field instruction in snow near infrastructure and shallow water](assets/field-teaching.webp)
 
-Field instruction on snow, water, and the built Arctic environment.
+Field instruction with Valentina Ekimova, MacKenzie Nelson, and Arctic Design Group studio students (2024). Photo: Arctic Design Group. [Original UVA publication and credit](https://engagement.virginia.edu/learn/thoughts-from-the-lawn/20250307-Cho-Jull).
 
 ### Sharing water-quality findings
 
@@ -67,3 +67,19 @@ Presenting Isatkoak Lagoon research findings to Barrow Utilities and Electric Co
 [Explore the website source](index.html) · [Academic CV](cv.html)
 
 To experience the website's actual design and navigation, open the full website using a local browser or a private GitHub Codespaces preview. GitHub's Markdown viewer is a photo gallery, not a renderer for the HTML site.
+
+## More Arctic environmental photographs
+
+![Surface water ponding next to Arctic infrastructure](assets/infrastructure-ponding.webp)
+
+Surface-water ponding near infrastructure, June 2025. Photo: Valentina Ekimova.
+
+![Middle Salt Lagoon shoreline outfall](assets/middle-salt-lagoon-outfall.webp)
+
+Water outfall at Middle Salt Lagoon, June 2024. Photo: Valentina Ekimova. No water-quality conclusion is implied.
+
+![Visible intake line on Imikpuk Lake shoreline](assets/imikpuk-shoreline-intake.webp)
+
+Exposed intake line at Imikpuk Lake, June 2024. Photo: Valentina Ekimova.
+
+[Community engagement and collaborators](community.html)

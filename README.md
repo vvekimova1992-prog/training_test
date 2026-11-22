@@ -38,3 +38,11 @@ The website includes a curated set of links to public LinkedIn posts on teaching
 - [Teaching & Mentoring](teaching.html): field-based teaching philosophy, course experience, proposed elective, and student mentorship.
 
 These pages present a general academic research and teaching profile, not an institution-specific application.
+
+## Research collaboration, photo credits, and findings
+
+The [Community Engagement & Collaborations](community.html) page acknowledges the wider UVA interdisciplinary team and Utqiaġvik-based project partners identified in the February 2026 University of Cincinnati presentation, while distinguishing project-level relationships from individual research partnerships. It does not suggest that the organizations endorse this personal site. The 2026 published geophysics paper supplies definitive author contributions, acknowledgments, and research support.
+
+The existing studio photo was also published by UVA Engagement and credited to Arctic Design Group (2024), linked alongside the photo. Based on the presentation credits, the snow monitoring image is credited to Cheri Johnson and the elevated blue building image to MacKenzie Nelson. Three added Arctic environmental photographs are credited to Valentina Ekimova in the presentation: infrastructure ponding (June 2025), a Middle Salt Lagoon outfall (June 2024), and an Imikpuk Lake shoreline intake (June 2024).
+
+Unpublished satellite and lagoon analyses are identified as ongoing. No unpublished numerical results, maps, or statistical test findings from the slide deck are reproduced as settled conclusions.
