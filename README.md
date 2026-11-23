@@ -62,3 +62,7 @@ Unpublished satellite and lagoon analyses are identified as ongoing. No unpublis
 
 `assets/burning-methane-hydrate-davletshina.webp` is extracted from the user-provided undergraduate seminar PDF (slides 2 and 32). The original slide caption credits Dinara Davletshina for the photograph and Ekaterina Krivokhat for the accompanying video. The photograph is used on `hydrates.html` and `frozen-fire.html` with visible credits; the video is not included.
 
+
+## Homepage research imagery
+
+Three research cards now use grounded images instead of decorative diagrams: a user-supplied snowdrift field photograph, selected ERT/GPR panels from Figure 5 of Ekimova et al. (2026), and a methane-hydrate demonstration photograph credited to Dinara Davletshina. The snow photo's photographer has not been independently identified, so no photographer attribution is asserted. The geophysics card uses a legibility crop of the provided figure while the complete figure remains available by clicking the image. The journal figure is from Ekimova, Nelson, Sullivan, Douglas, Epstein, and Jull, *The Cryosphere* 20, 265–283 (2026), licensed under CC BY 4.0. The geophysics card contains a short, evidence-based paper summary and a direct DOI link.

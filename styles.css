@@ -67,3 +67,25 @@
 .feature-link:hover{color:#0c4540}
 .teaching-subline{font-size:.85rem!important;line-height:1.67;margin:19px 0 0;color:#55716a}
 .teaching-copy .feature-link{margin-top:18px}
+
+/* Research feature photographs and the published geophysical figure */
+.research-card{min-width:0}
+.research-media{margin:18px 0 19px;width:100%;min-width:0}
+.research-media>a{display:block;position:relative;overflow:hidden;height:195px;background:#eff3ef;border:1px solid #dce6e1}
+.research-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.research-media>a:hover img{transform:scale(1.035)}
+.research-media-snow img{object-position:43% 58%}
+.research-media-geophysics>a{background:#fff}
+.research-media-geophysics img{object-fit:contain;object-position:center}
+.research-media-hydrate>a{background:#0b1118}
+.research-media-hydrate img{object-fit:contain;object-position:center}
+.research-media figcaption{font-size:.71rem;line-height:1.55;color:#627b75;margin-top:9px;min-height:35px}
+.research-media figcaption span{font-weight:800;color:#31796c}
+.research-paper-brief{margin-top:10px;padding:12px 13px 14px;background:#eef5f0;border-left:2px solid #4a9284;display:flex;flex-direction:column;gap:5px}
+.research-paper-brief span{font-size:.58rem;letter-spacing:.07em;color:#648078;font-weight:800}
+.research-paper-brief a{color:#2a7167;font-size:.79rem;font-weight:800;text-decoration:underline;text-underline-offset:3px;align-self:start}
+.research-paper-brief a:hover{color:#164d45}
+.research-card .chipline{padding-top:18px}
+@media(max-width:850px){.research-media>a{height:215px}}
+@media(max-width:560px){.research-media>a{height:220px}.research-card{padding:24px}}
+@media(prefers-reduced-motion:reduce){.research-media img{transition:none}}
