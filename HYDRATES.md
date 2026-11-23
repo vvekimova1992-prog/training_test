@@ -10,6 +10,12 @@
 
 *Photograph: Dinara Davletshina. Associated demonstration video: Ekaterina Krivokhat (not reproduced). Extracted from the undergraduate seminar presentation "Frozen Fire", slide 2.*
 
+## Published salt-migration model
+
+![Figure 11 from Chuvilin et al. (2019): proposed interaction between seawater, saline subsea permafrost, and relict gas hydrates](https://mdpi-res.com/geosciences/geosciences-09-00188/article_deploy/html/images/geosciences-09-00188-g011.png)
+
+*Figure 11: estimated model of seawater salt migration into subsea permafrost and possible hydrate destabilization, from Chuvilin, Ekimova et al. (2019), [Geosciences 9(4), 188](https://doi.org/10.3390/geosciences9040188). CC BY 4.0. The publisher-hosted image is used unchanged, and the model is not presented as direct field evidence.*
+
 ## The research question
 
 How do saline fluids, pressure, temperature, and sediment composition control ice and methane-hydrate stability in frozen ground?
