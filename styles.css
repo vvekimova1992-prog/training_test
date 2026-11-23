@@ -89,3 +89,15 @@
 @media(max-width:850px){.research-media>a{height:215px}}
 @media(max-width:560px){.research-media>a{height:220px}.research-card{padding:24px}}
 @media(prefers-reduced-motion:reduce){.research-media img{transition:none}}
+
+/* Selected honors under the academic profile */
+.recognition-strip{grid-column:1/-1;min-width:0;border-top:1px solid #d4e2dc;padding-top:25px;margin-top:24px}
+.recognition-strip-heading{font-size:.67rem;letter-spacing:.14em;font-weight:800;color:#34796e;margin:0 0 18px}
+.recognition-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.recognition-grid a{display:flex;flex-direction:column;gap:8px;border:1px solid #d7e3db;background:#f4f8f3;padding:19px 16px;min-width:0;text-decoration:none;transition:transform .2s}
+.recognition-grid a:hover{transform:translateY(-3px)}
+.recognition-grid span{font-size:.63rem;font-weight:800;letter-spacing:.08em;color:#3a8073}
+.recognition-grid strong{font:800 .95rem/1.32 Manrope,Arial,sans-serif;letter-spacing:-.025em;color:#194447}
+.recognition-grid small{font-size:.7rem;line-height:1.5;color:#627d73}
+@media(max-width:900px){.recognition-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:530px){.recognition-grid{grid-template-columns:1fr}.recognition-grid a{padding:17px}}
