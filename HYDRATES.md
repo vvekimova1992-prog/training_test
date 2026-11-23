@@ -12,9 +12,16 @@
 
 ## Published salt-migration model
 
-![Figure 11 from Chuvilin et al. (2019): proposed interaction between seawater, saline subsea permafrost, and relict gas hydrates](https://mdpi-res.com/geosciences/geosciences-09-00188/article_deploy/html/images/geosciences-09-00188-g011.png)
+![Figure 11 from Chuvilin et al. (2019): proposed interaction between seawater, saline subsea permafrost, and relict gas hydrates](assets/figure-11-salt-migration.webp)
 
-*Figure 11: estimated model of seawater salt migration into subsea permafrost and possible hydrate destabilization, from Chuvilin, Ekimova et al. (2019), [Geosciences 9(4), 188](https://doi.org/10.3390/geosciences9040188). CC BY 4.0. The publisher-hosted image is used unchanged, and the model is not presented as direct field evidence.*
+*Figure 11: estimated model of seawater salt migration into subsea permafrost and possible hydrate destabilization, from Chuvilin, Ekimova et al. (2019), [Geosciences 9(4), 188](https://doi.org/10.3390/geosciences9040188). CC BY 4.0. The diagram and legend are cropped from the original uploaded PDF, and the model is not presented as direct field evidence.*
+
+## PhD defense (2022)
+
+I defended my PhD in Petroleum Engineering at Skoltech on October 19, 2022. My dissertation, *Experimental Modeling of Gas Hydrates Interaction with a Salt Solution in Permafrost*, examined how saline solutions interact with hydrate-bearing frozen sediments under different temperature, pressure and sediment conditions. Dr. Evgeny Chuvilin supervised the research.
+
+- [Official Skoltech PhD defense record](https://www.skoltech.ru/en/applicants/valentina-ekimova)
+- [Read the full dissertation](https://back.skoltech.ru/storage/app/media/defenses/2022/valentina-ekimova/theme/thesis1.pdf)
 
 ## The research question
 

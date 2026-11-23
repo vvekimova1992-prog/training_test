@@ -70,3 +70,7 @@ Three research cards now use grounded images instead of decorative diagrams: a u
 ## Published salt-migration figure
 
 The gas-hydrate research page embeds the original Figure 11 from Chuvilin, Ekimova, Bukhanov, Grebenkin, Shakhova, and Semiletov (2019), *Role of Salt Migration in Destabilization of Intra Permafrost Hydrates in the Arctic Shelf: Experimental Modeling*, *Geosciences* 9(4), 188, DOI: 10.3390/geosciences9040188. This is the authors' published estimated model of salinity and thaw fronts and possible gas hydrate destabilization, not a direct field observation or newly generated illustration. The image is sourced from the publisher's image host (with an alternate publisher URL and article-link fallback) under CC BY 4.0; it is not stored as a local asset. Original source and license are linked in the caption.
+
+## Detailed gas-hydrate publication summaries and defense
+
+The gas-hydrate page now presents two-sentence research summaries for ten selected papers and direct DOI links. These are edited summaries, not copied journal abstracts, and separate laboratory findings from field-scale inference. A dedicated PhD defense section links to the official October 19, 2022 Skoltech defense record and to the official dissertation PDF. The published Figure 11 diagram and legend are cropped from the user-supplied 2019 paper and hosted locally at `assets/figure-11-salt-migration.webp`, retaining full attribution and CC BY 4.0 credit. This replaces the earlier external image dependency.
